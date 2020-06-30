@@ -1,32 +1,28 @@
-
-<section id="start-block" class="relative">
-    <div class="container-fluid first-img p-0 absolute">
-        <div class=" bg-secondary text-white">
-            <img src="img/main_merged.png" width="100%" height="auto" alt="" loading="lazy">
-        </div>
-    </div>
-
-    <div class="container-fluid text-white main-links">
-        <div class="row align-items-center">
-            <div class="col-5 "><div class="main-links-border pl-2"><a href="http://">Запчасти<br>для АКПП, CVT и<br> DSG</a></div></div>
-                <div class="col-4"><div>
-                    <div class="main-links-border pl-2 mb-3"><a href="remont">Ремонт<br>гидротрансформаторов<br>для легкового и<br>грузового транспорта</a></div>
-                    <p class="w-75">
-                        Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
-                        Наша специализация - ремонт гидротрансформаторов и продажа запчастей для АКПП и 
-                        вариаторов. Мы достигли высоких результатов благодаря слаженной команде профессионалов, 
-                        работающих с гидротрансформаторами более 20 лет.  
-                    </p>
-                    <button class="btn btn-danger shadow br-20 mt-3" type="button">Подробнее</button>
+<section id="start-block">
+    <div class="w-100 p-5 first-img bg-secondary" style="background: url('../img/main_merged2.png') no-repeat; background-size: cover; background-position: center;">
+        <div class="container-fluid text-white main-links">
+            <div class="row align-items-center">
+                <div class="col-5 "><div class="main-links-border pl-2"><a href="http://">Запчасти<br>для АКПП, CVT и<br> DSG</a></div></div>
+                    <div class="col-4"><div>
+                        <div class="main-links-border pl-2 mb-3"><a href="remont">Ремонт<br>гидротрансформаторов<br>для легкового и<br>грузового транспорта</a></div>
+                        <p class="w-75">
+                            Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
+                            Наша специализация - ремонт гидротрансформаторов и продажа запчастей для АКПП и 
+                            вариаторов. Мы достигли высоких результатов благодаря слаженной команде профессионалов, 
+                            работающих с гидротрансформаторами более 20 лет.  
+                        </p>
+                        <button class="btn btn-danger shadow br-20 mt-3" type="button">Подробнее</button>
+                    </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="main-links-border pl-2">
-                    <a href="http://">Ремонт 6DСT450 <br>Powershift</a>
+                <div class="col-3">
+                    <div class="main-links-border pl-2">
+                        <a href="http://">Ремонт 6DСT450 <br>Powershift</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 </section>
 

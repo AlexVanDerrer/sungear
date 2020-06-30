@@ -1,4 +1,71 @@
-<div class="container">
-    <h3 class="text-center m-5">Страница "Контакты" находится в разработке</h3>
+<section id="contacts-block">
+    <div class="w-100 p-5" style="background: url('../img/contacts_bg.png') no-repeat; background-size: cover; background-position: center;">
+        <div class="container p-0 ">
+            <h5 class="text-start"><span>Контакты</span></h5>
+            <div class="row">
+                <div class="col-lg-3" >
+                    <div class="w-100 h-100 p-4 shadow-lg" style="background-color: #fafafa; border-radius: 6px;">
+                        <span class="small-title">Адрес</span>
+                        <p>
+                        г. Санкт-Петербург, Выборгская набережная, 55, корпус 1 
 
-</div>
+                        </p>
+                        <span class="small-title">Режим работы</span>
+                        <p>
+                        c 10:00 по 18:00 Пн-пт
+                        </p>
+                        <span class="small-title">Связь с нами</span>
+                        <p>
+                        +7 (911) 101-40-09
+                        </p>
+                        <p>
+                        +7 (911) 101-40-09
+                        </p>
+                        <span class="small-title">Мессенджеры</span>
+                        <div class="d-flex justify-content-start mt-3">            
+                            <span class="mr-2"><a href="#"><img class="align-middle" src="img/viber_d.png" width="47" height="47" alt="" loading="lazy"></a></span>
+                            <span class="mr-2"><a href="#"><img class="align-middle" src="img/whatsapp_d.png" width="61" height="55" alt="" loading="lazy"></a></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-9">
+                    <div class="w-100 h-100 p-4 shadow-lg" style="background-color: #fafafa; border-radius: 6px;">
+                        <h6 class="text-start"><span>Напишите нам</span></h6>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="feedbackInputName" placeholder="Ваше имя">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="feedbackInputNumber" placeholder="+7(___)___-__-__">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Опишите проблему</label>
+                                <textarea rows="6" class="form-control" aria-label="With textarea" placeholder="Текст сообщения"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Согласие с <a class="text-decoration-none text-danger" href="politika">Политикой конфиденциальности</a>
+                                </label>
+                                </div>
+                            </div>
+                            <button class="btn btn-danger shadow br-20" type="submit">Отправить сообщение</button>
+                        </form>
+                    </div>
+                    
+            
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="map-block m-0">
+    <div class="container-fluid p-0">
+        <img src="img/map.png" width="100%" height="auto" alt="" loading="lazy">
+    </div>
+</section>

@@ -14,6 +14,7 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('nav_panel_start');
+		$this->load->view('menu_panel');
 		$this->load->view('about_view');
 		$this->load->view('footer');
 	}
@@ -21,6 +22,7 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('nav_panel_start');
+		$this->load->view('menu_panel');
 		$this->load->view('docs_view');
 		$this->load->view('footer');	
 	}
@@ -28,6 +30,7 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('nav_panel_start');
+		$this->load->view('menu_panel');
 		$this->load->view('contacts_view');
 		$this->load->view('footer');
 	}

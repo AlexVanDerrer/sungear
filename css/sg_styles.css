@@ -22,13 +22,16 @@ section {
     font-size: 14px;
     color: #f0f0f0;
 }
+#contacts-block .container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+}
 .block-title {
     border-bottom: 2px solid red;
 }
 .small-title {
     border-bottom: 2px solid red;
-    
-    color: white;
     font-weight: bold;
 }
 
@@ -44,8 +47,9 @@ section {
 }
 
 .first-img {
-    /* background-color:rgba(0,0,0,.3); */
-    filter: brightness(50%);
+    /* background-color: #E6EAF3 !important; */
+    /* filter: brightness(80%); */
+
 }
 
 .relative {

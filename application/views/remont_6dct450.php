@@ -150,23 +150,23 @@
             <div class="row">
                 <div class="col-lg-3" >
                     <div class="w-100 h-100 p-4" style="background-color: RGB(63,61,61,.5); border-radius: 6px;">
-                        <span class="small-title">Адрес</span>
+                        <span class="small-title text-white">Адрес</span>
                         <p>
                         г. Санкт-Петербург, Выборгская набережная, 55, корпус 1 
 
                         </p>
-                        <span class="small-title">Режим работы</span>
+                        <span class="small-title text-white">Режим работы</span>
                         <p>
                         c 10:00 по 18:00 Пн-пт
                         </p>
-                        <span class="small-title">Связь с нами</span>
+                        <span class="small-title text-white">Связь с нами</span>
                         <p>
                         +7 (911) 101-40-09
                         </p>
                         <p>
                         +7 (911) 101-40-09
                         </p>
-                        <span class="small-title">Мессенджеры</span>
+                        <span class="small-title text-white">Мессенджеры</span>
                         <div class="d-flex justify-content-start mt-3">            
                             <span class="mr-2"><a href="#"><img class="align-middle" src="img/viber.png" width="22" height="22" alt="" loading="lazy"></a></span>
                             <span class="mr-2"><a href="#"><img class="align-middle" src="img/whatsapp.png" width="29" height="26" alt="" loading="lazy"></a></span>
