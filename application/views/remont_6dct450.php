@@ -1,143 +1,134 @@
-<div class="container my-5 ">
+<div class="container my-5 scroll-container">
     <div class="row">
         <div class="col-lg-3 mb-5">
-            <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#repair_6dct450" role="tab" aria-controls="home">Ремонт 6DCT450</a>
-                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#reasons-failure" role="tab" aria-controls="profile">Причины поломки</a>
-                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#work-stage" role="tab" aria-controls="messages">Этапы работ</a>
-                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#repair-process" role="tab" aria-controls="messages">Процесс ремонта</a>
-
+            <div class="list-group sticky-top" id="scroll-list">
+                <a class="list-group-item list-group-item-action" href="#repair_6dct450">Ремонт 6DCT450</a>
+                <a class="list-group-item list-group-item-action" href="#reasons-failure">Причины поломки</a>
+                <a class="list-group-item list-group-item-action" href="#work-stage">Этапы работ</a>
+                <a class="list-group-item list-group-item-action" href="#repair-process">Процесс ремонта</a>
             </div>
         </div>
         <div class="col-lg-9">
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="repair_6dct450" role="tabpanel" aria-labelledby="list-home-list">
-                    <h4 class="text-center mb-3">Ремонт 6DCT450</h4>
-                    <div class="container">
-                        <div class="row">
-                        <div class="col-lg-4">
-                            <p>
-                                Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
-                                Наша специализация - ремонт и продажа запчастей для АКПП и вариаторов. Мы достигли высоких 
-                                результатов благодаря слаженной команде профессионалов, работающих с автоматическими трансмиссиями 
-                                более 20 лет. 
-                            </p>
+            <div class="container-fluid mb-5" id="repair_6dct450">
+                <h4 class="text-center mb-5">Ремонт 6DCT450</h4>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>
+                            Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
+                            Наша специализация - ремонт и продажа запчастей для АКПП и вариаторов. Мы достигли высоких 
+                            результатов благодаря слаженной команде профессионалов, работающих с автоматическими трансмиссиями 
+                            более 20 лет. 
+                        </p>
+                    </div>
+                    <div class="col-lg-4"><img class="w-100" src="img/image_25.png" alt="" loading="lazy"></div>
+                    <div class="col-lg-4">
+                        <p>
+                            Наши специалисты регулярно проходят обучение и участвуют в семинарах, связанных с инновациями в области АКПП. 
+                            Объединяя многолетний опыт и новейшие технологии, мы оказываем только качественные услуги. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mb-5" id="reasons-failure">
+                <h5 class="text-center mb-5"><span class="block-title">Причины поломки</span></h5>
+                <div class="row shadow" style="border: 1px solid #f0f0f0;">
+                    <div class="col-4 pl-0">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Поломка из __<span class="badge badge-transparent badge-pill"><i class="fas fa-chevron-circle-right"></i></span></a>
+                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Сломано</a>
+                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Редкая замена масла</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Причина №№</a>
                         </div>
-                        <div class="col-lg-4"><img class="w-100" src="img/image_25.png" alt="" loading="lazy"></div>
-                        <div class="col-lg-4">
-                            <p>
-                                Наши специалисты регулярно проходят обучение и участвуют в семинарах, связанных с инновациями в области АКПП. 
-                                Объединяя многолетний опыт и новейшие технологии, мы оказываем только качественные услуги. 
-                            </p>
-                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active  mt-3" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus obcaecati temporibus maxime exercitationem modi hic eum tempore facere perferendis natus quisquam similique quibusdam dolores odio numquam, id, harum laborum culpa explicabo repudiandae unde. Quia reprehenderit aperiam odit adipisci vel quidem quos qui nulla laborum, unde nam similique velit praesentium.</div>
+                            <div class="tab-pane fade mt-3" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aspernatur beatae ea iure dolorem, quis veritatis consectetur. Dolorum, dignissimos similique! Ullam facere optio fugit beatae, magni excepturi earum perferendis facilis quia ducimus ipsam, nobis laudantium fuga nam suscipit voluptates. Maiores accusamus ipsum ab dolorem architecto laborum iusto? Doloribus, quidem ducimus?</div>
+                            <div class="tab-pane fade mt-3" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aspernatur beatae ea iure dolorem, quis veritatis consectetur. Dolorum, dignissimos similique! Ullam facere optio fugit beatae, magni excepturi earum perferendis facilis quia ducimus ipsam, nobis laudantium fuga nam suscipit voluptates. Maiores accusamus ipsum ab dolorem architecto laborum iusto? Doloribus, quidem ducimus?</div>
+                            <div class="tab-pane fade mt-3" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aspernatur beatae ea iure dolorem, quis veritatis consectetur. Dolorum, dignissimos similique! Ullam facere optio fugit beatae, magni excepturi earum perferendis facilis quia ducimus ipsam, nobis laudantium fuga nam suscipit voluptates. Maiores accusamus ipsum ab dolorem architecto laborum iusto? Doloribus, quidem ducimus?</div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="reasons-failure" role="tabpanel" aria-labelledby="list-messages-list">
-                        <div class="container-fluid">
-                            <h5 class="text-center mb-3"><span class="block-title">Причины поломки</span></h5>
-                            <div class="row shadow" style="border: 1px solid #f0f0f0;">
-                                <div class="col-4 pl-0">
-                                    <div class="list-group" id="list-tab" role="tablist">
-                                        <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Поломка из __<span class="badge badge-transparent badge-pill"><i class="fas fa-chevron-circle-right"></i></span></a>
-                                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Сломано</a>
-                                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Редкая замена масла</a>
-                                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Причина №№</a>
+            </div>
+
+            <div class="container-fluid mb-5">
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid mb-5" id="work-stage">
+                <h5 class="text-center mb-5"><span class="block-title">Этапы работ по ремонту гидротрансформатора</span></h5>
+                <div class="row">
+                    <div class="col-6 p-0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="list-item-block">
+                                        <span class="list-numbers">1.</span>
+                                        <p style="font-size:26px; color: red;">
+                                            Вскрытие.
+                                        </p>
                                     </div>
+
                                 </div>
                                 <div class="col-8">
-                                    <div class="tab-content" id="nav-tabContent">
-                                        <div class="tab-pane fade show active  mt-3" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus obcaecati temporibus maxime exercitationem modi hic eum tempore facere perferendis natus quisquam similique quibusdam dolores odio numquam, id, harum laborum culpa explicabo repudiandae unde. Quia reprehenderit aperiam odit adipisci vel quidem quos qui nulla laborum, unde nam similique velit praesentium.</div>
-                                        <div class="tab-pane fade mt-3" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aspernatur beatae ea iure dolorem, quis veritatis consectetur. Dolorum, dignissimos similique! Ullam facere optio fugit beatae, magni excepturi earum perferendis facilis quia ducimus ipsam, nobis laudantium fuga nam suscipit voluptates. Maiores accusamus ipsum ab dolorem architecto laborum iusto? Doloribus, quidem ducimus?</div>
-                                        <div class="tab-pane fade mt-3" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aspernatur beatae ea iure dolorem, quis veritatis consectetur. Dolorum, dignissimos similique! Ullam facere optio fugit beatae, magni excepturi earum perferendis facilis quia ducimus ipsam, nobis laudantium fuga nam suscipit voluptates. Maiores accusamus ipsum ab dolorem architecto laborum iusto? Doloribus, quidem ducimus?</div>
-                                        <div class="tab-pane fade mt-3" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aspernatur beatae ea iure dolorem, quis veritatis consectetur. Dolorum, dignissimos similique! Ullam facere optio fugit beatae, magni excepturi earum perferendis facilis quia ducimus ipsam, nobis laudantium fuga nam suscipit voluptates. Maiores accusamus ipsum ab dolorem architecto laborum iusto? Doloribus, quidem ducimus?</div>
+                                    <div class="list-item-block">
+                                        <p>
+                                            Специалисты VAG стараются исправить данную проблему посредством обновления программного 
+                                            обеспечения, но один мехатроник не сможет решить «болезнь» всей конструкции. Проще говоря, 
+                                            дребезжание будет сопровождать работу DSG-7 до выхода следующей модели коробки.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col">
-
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                    <div class="col-6 p-0"><img class="w-100" src="img/stage.png" alt="" loading="lazy"></div>
                 </div>
-                <div class="tab-pane fade" id="work-stage" role="tabpanel" aria-labelledby="list-profile-list">
-                    <div class="container-fluid">
-                        <h5 class="text-center mb-5"><span class="block-title">Этапы работ по ремонту гидротрансформатора</span></h5>
-                        <div class="row">
-                            <div class="col-6 p-0">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <div class="list-item-block">
-                                                <span class="list-numbers">1.</span>
-                                                <p style="font-size:26px; color: red;">
-                                                    Вскрытие.
-                                                </p>
-                                            </div>
+                <div class="row">
+                    <div class="col-6 p-0"><img class="w-100" src="img/stage2.png" alt="" loading="lazy"></div>
+                    <div class="col-6 p-0">
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="list-item-block">
+                                        <span class="list-numbers">4.</span>
+                                        <p style="font-size:26px; color: red;">
+                                            Герметизация.
+                                        </p>
+                                    </div>
 
-                                        </div>
-                                        <div class="col-8">
-                                            <div class="list-item-block">
-                                                <p>
-                                                    Специалисты VAG стараются исправить данную проблему посредством обновления программного 
-                                                    обеспечения, но один мехатроник не сможет решить «болезнь» всей конструкции. Проще говоря, 
-                                                    дребезжание будет сопровождать работу DSG-7 до выхода следующей модели коробки.
-                                                </p>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="list-item-block">
+                                        <p>
+                                            Специалисты VAG стараются исправить данную проблему посредством обновления программного 
+                                            обеспечения, но один мехатроник не сможет решить «болезнь» всей конструкции. Проще говоря, 
+                                            дребезжание будет сопровождать работу DSG-7 до выхода следующей модели коробки.
+
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6 p-0"><img class="w-100" src="img/stage.png" alt="" loading="lazy"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 p-0"><img class="w-100" src="img/stage2.png" alt="" loading="lazy"></div>
-                            <div class="col-6 p-0">
-                            <div class="container">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <div class="list-item-block">
-                                                <span class="list-numbers">4.</span>
-                                                <p style="font-size:26px; color: red;">
-                                                    Герметизация.
-                                                </p>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-8">
-                                            <div class="list-item-block">
-                                                <p>
-                                                    Специалисты VAG стараются исправить данную проблему посредством обновления программного 
-                                                    обеспечения, но один мехатроник не сможет решить «болезнь» всей конструкции. Проще говоря, 
-                                                    дребезжание будет сопровождать работу DSG-7 до выхода следующей модели коробки.
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row my-5">
-                            <div class="col-lg-4"><button class="btn shadow br-20 w-100 work-stage-buttons" type="button"><a href="#">Принцип работы</a></button></div>
-                            <div class="col-lg-4"><button class="btn shadow br-20 w-100 work-stage-buttons" type="button"><a href="#">Основные неисправности</a> </button></div>
-                            <div class="col-lg-4"><button class="btn shadow br-20 w-100 work-stage-buttons" type="button"><a href="article/remont_article">Из чего состоит?</a></button></div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="repair-process" role="tabpanel" aria-labelledby="list-messages-list">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col">
-                                    <h5 class="text-center"><span class="block-title">Процесс ремонта гидротрансформатора </span></h5>
-                                    <div class="video-block mt-5 mx-auto" style="">YouTube </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row my-5">
+                    <div class="col-lg-4"><button class="btn shadow br-20 w-100 work-stage-buttons" type="button"><a href="#">Принцип работы</a></button></div>
+                    <div class="col-lg-4"><button class="btn shadow br-20 w-100 work-stage-buttons" type="button"><a href="#">Основные неисправности</a> </button></div>
+                    <div class="col-lg-4"><button class="btn shadow br-20 w-100 work-stage-buttons" type="button"><a href="article">Из чего состоит?</a></button></div>
+                </div>
+            </div>
+
+            <div class="container-fluid mb-5" id="repair-process">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="text-center"><span class="block-title">Процесс ремонта гидротрансформатора </span></h5>
+                        <div class="video-block mt-5 mx-auto">YouTube </div>
+                    </div>
                 </div>
             </div>
         </div>
