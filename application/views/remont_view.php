@@ -25,7 +25,7 @@
                         <h5>Поиск и заказ ремонта гидротрансформатора по модели АКПП</h5>
                         <div class="row mt-3">
                             <div class="col-5">
-                                <form method="POST">
+                                <form method="post">
                                     <div class="form-group">
                                         <input type="text" class="form-control br-20" name="customName" id="customName" placeholder="Имя">
                                     </div>
@@ -44,10 +44,6 @@
                                         <input class="form-check-input" type="checkbox" name="delivery" id="inlineCheckbox1" value="1">
                                         <label class="form-check-label" for="inlineCheckbox1">Забрать/привезти</label>
                                     </div>
-                                    <div class="form-group">
-                                        
-                                    </div>
-
                                 </div>
                                 <div class="col-7">
                                     <span><b>Описание: </b></span>    
@@ -58,11 +54,10 @@
                                         <a href="#">Работа с регионами</a> |
                                         <a href="#">Оплата</a>
                                     </p>
-                                </div>
-                                
+                                </div>   
                             </div>
                             <div class="row">
-                                <div class="col-5"><button class="btn btn-danger shadow br-20 w-100" name="callMe" type="submit">Не знаю свою модель</button></div>
+                                <div class="col-5"><button class="btn btn-danger shadow br-20 w-100" data-toggle="modal" data-target="#exampleModal" type="button">Не знаю свою модель</button></div>
                                 <div class="col-7 d-flex justify-content-center"><button class="btn btn-danger shadow br-20 w-75" name="order" type="submit">Заказать ремонт</button></div>
                             </div>
                         </form>

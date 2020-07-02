@@ -38,7 +38,7 @@
                 <div class="col-lg-9">
                     <div class="w-100 h-100 p-4 shadow-lg" style="background-color: #fafafa; border-radius: 6px;">
                         <h6 class="text-start"><span>Напишите нам</span></h6>
-                        <form>
+                        <form method="post">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <input type="text" class="form-control" name="customName" id="feedbackInputName" placeholder="Ваше имя">

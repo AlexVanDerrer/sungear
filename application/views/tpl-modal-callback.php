@@ -2,7 +2,7 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content w-auto mx-auto bg-light">
-        <form method="POST">
+        <form action="/" method="post">
             <div class="modal-body">
                 <div class="container-fluid ">
                     <div class="row d-flex justify-content-center mb-3 position-relative">
