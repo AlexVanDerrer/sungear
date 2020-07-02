@@ -18,7 +18,7 @@
                     <ul class="mt-3 p-0">
                         <li><a href="zapchasti">Запчасти для АКПП, CVT, DSG</a></li>
                         <li><a href="remont">Ремонт гидротрансформаторов для легковых и грузовых</a></li>
-                        <li><a href="remont/6dct450">Ремонт 6DCT450 PowerShift</a></li>
+                        <li><a href="remont6dct450">Ремонт 6DCT450 PowerShift</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-lg-6">

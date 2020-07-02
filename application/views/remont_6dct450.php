@@ -34,7 +34,7 @@
                 <div class="row shadow" style="border: 1px solid #f0f0f0;">
                     <div class="col-4 pl-0">
                         <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Поломка из __<span class="badge badge-transparent badge-pill"><i class="fas fa-chevron-circle-right"></i></span></a>
+                            <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Поломка из __</a>
                             <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Сломано</a>
                             <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Редкая замена масла</a>
                             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Причина №№</a>

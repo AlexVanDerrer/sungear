@@ -1,8 +1,8 @@
 <?php
 class Main_model extends CI_Model 
 {
-	public function __construct() 
-	{
+  public function __construct() 
+  {
         parent::__construct();
     }
 
@@ -17,6 +17,13 @@ class Main_model extends CI_Model
 
     public function orderRepair() {
         $this->load->library('email');
+      
+        $config['smtp_host'] = 'smtp-18.1gb.ru';
+        $config['smtp_user'] = 'u98456';
+        $config['smtp_pass'] = '70042dc8';
+        $config['smtp_port'] = '25';
+        
+        $this->email->initialize($config);
 
         $customName = $this->input->post('customName');
         $customPhone = $this->input->post('customPhone');
@@ -46,10 +53,12 @@ HTML;
 
         $this->email->send();
 
+
+        // https://qna.habr.com/q/58228
     }
 
-	public function printArr($array)
-	{
-		echo "<pre>" . print_r($array, true) . "</pre>";
-	}
+  public function printArr($array)
+  {
+    echo "<pre>" . print_r($array, true) . "</pre>";
+  }
 }
