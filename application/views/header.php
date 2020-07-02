@@ -11,4 +11,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" type="text/css" href="css/sg_styles.css">
     <title>SunGear</title>
 </head>
-<body data-spy="scroll" data-target="#scroll-list" data-offset="50">
+<body data-spy="scroll" data-target="#scroll-list" data-offset="100">

@@ -16,10 +16,6 @@ class Main extends CI_Controller {
 		}
 
 		$data['parts'] = $this->main_model->getArrFromXlsx();
-		$data['post'] = $_POST;
-
-
-
 
 		$this->load->view('header');
 		$this->load->view('nav_panel_start');
@@ -40,6 +36,14 @@ class Main extends CI_Controller {
 		$this->load->view('nav_panel_start');
 		$this->load->view('menu_panel');
 		$this->load->view('remont_article');
+		$this->load->view('footer');
+	}
+
+	public function notFound() {
+		$this->load->view('header');
+		$this->load->view('nav_panel_start');
+		$this->load->view('menu_panel');
+		$this->load->view('404');
 		$this->load->view('footer');
 	}
 }

@@ -1,4 +1,4 @@
-<div class="container my-5 ">
+<div class="container mt-5 pb-5" style="border-bottom: 1px solid red;">
     <div class="row">
         <div class="col-lg-3 mb-5">
             <div class="list-group sticky-top" id="scroll-list">
@@ -81,11 +81,12 @@
             <div class="container-fluid mb-5" id="repair-process">
                 <div class="row">
                     <div class="col">
-                        <h5 class="text-center"><span class="block-title">Процесс ремонта гидротрансформатора </span></h5>
-                        <div class="video-block mt-5 mx-auto">YouTube </div>
+                        <?php require 'tpl-repair-process.php'; ?>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<?php require 'tpl-another-service.php'; ?>

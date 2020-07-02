@@ -1,4 +1,3 @@
-<?=print_r($post); ?>
 <div class="container mt-5 pb-5" style="border-bottom: 1px solid red;">
     <div class="row">
         <div class="col-lg-3 mb-5">
@@ -71,74 +70,13 @@
             </div>
 
             <div class="container-fluid mb-5" id="work-stage">
-            <h5 class="text-center mb-5"><span class="block-title">Этапы работ по ремонту гидротрансформатора</span></h5>
-                <div class="row">
-                    <div class="col-6 p-0">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="list-item-block">
-                                        <span class="list-numbers">1.</span>
-                                        <p style="font-size:26px; color: red;">
-                                            Вскрытие.
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-8">
-                                    <div class="list-item-block">
-                                        <p>
-                                            Специалисты VAG стараются исправить данную проблему посредством обновления программного 
-                                            обеспечения, но один мехатроник не сможет решить «болезнь» всей конструкции. Проще говоря, 
-                                            дребезжание будет сопровождать работу DSG-7 до выхода следующей модели коробки.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 p-0"><img class="w-100" src="img/stage.png" alt="" loading="lazy"></div>
-                </div>
-                <div class="row">
-                    <div class="col-6 p-0"><img class="w-100" src="img/stage2.png" alt="" loading="lazy"></div>
-                    <div class="col-6 p-0">
-                    <div class="container">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="list-item-block">
-                                        <span class="list-numbers">4.</span>
-                                        <p style="font-size:26px; color: red;">
-                                            Герметизация.
-                                        </p>
-                                    </div>
-
-                                </div>
-                                <div class="col-8">
-                                    <div class="list-item-block">
-                                        <p>
-                                            Специалисты VAG стараются исправить данную проблему посредством обновления программного 
-                                            обеспечения, но один мехатроник не сможет решить «болезнь» всей конструкции. Проще говоря, 
-                                            дребезжание будет сопровождать работу DSG-7 до выхода следующей модели коробки.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row my-5">
-                    <div class="col-lg-4"><button class="btn shadow br-20 w-100 work-stage-buttons" type="button"><a href="#">Принцип работы</a></button></div>
-                    <div class="col-lg-4"><button class="btn shadow br-20 w-100 work-stage-buttons" type="button"><a href="#">Основные неисправности</a> </button></div>
-                    <div class="col-lg-4"><button class="btn shadow br-20 w-100 work-stage-buttons" type="button"><a href="article/remont_article">Из чего состоит?</a></button></div>
-                </div>
+                <?php require 'tpl-work-stage.php'; ?>
             </div>
 
             <div class="container-fluid mb-5" id="repair-process">
                 <div class="row">
                     <div class="col">
-                        <h5 class="text-center"><span class="block-title">Процесс ремонта гидротрансформатора </span></h5>
-                        <div class="video-block mt-5 mx-auto">YouTube </div>
+                        <?php require 'tpl-repair-process.php'; ?>
                     </div>
                 </div>
             </div>
@@ -146,28 +84,5 @@
     </div>
 </div>
     
-<section id="another-service">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <h5 class="text-center my-5"><span style="color: black; font-weight: 200">Мы так же занимаемся</span></h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col d-flex justify-content-center">
-                            <div class="test-service"></div>
-                            <div class="test-service"></div>
-                            <div class="test-service"></div>
-                            <div class="test-service"></div>
-                            <div class="test-service"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php require 'tpl-another-service.php'; ?>
 
