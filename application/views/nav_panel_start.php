@@ -1,4 +1,4 @@
-<div class="container-fluid bg-light d-flex justify-content-center fixed-top ">
+<div class="container-fluid bg-light d-flex justify-content-center">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand mr-5" href="/">
             <img src="img/logo_sungear.png" width="105" height="68" alt="" loading="lazy">

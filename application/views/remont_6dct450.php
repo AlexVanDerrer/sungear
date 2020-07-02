@@ -110,25 +110,25 @@
                         <form class="text-white">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" id="feedbackInputName" placeholder="Ваше имя">
+                                    <input type="text" class="form-control" name="customName" id="feedbackInputName" placeholder="Ваше имя">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" id="feedbackInputNumber" placeholder="+7(___)___-__-__">
+                                    <input type="text" class="form-control" name="customPhone" id="feedbackInputNumber" placeholder="+7(___)___-__-__">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress">Опишите проблему</label>
-                                <textarea rows="6" class="form-control" aria-label="With textarea" placeholder="Текст сообщения"></textarea>
+                                <textarea rows="6" class="form-control" aria-label="With textarea" name="customText" placeholder="Текст сообщения"></textarea>
                             </div>
                             <div class="form-group">
                                 <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <input class="form-check-input" name="politica" type="checkbox" id="gridCheck" value="agree">
                                 <label class="form-check-label" for="gridCheck">
                                     Согласие с <a class="text-decoration-none text-danger" href="politika">Политикой конфиденциальности</a>
                                 </label>
                                 </div>
                             </div>
-                            <button class="btn btn-danger shadow br-20" type="submit">Отправить сообщение</button>
+                            <button class="btn btn-danger shadow br-20" name="submit" value="callback" type="submit">Отправить сообщение</button>
                         </form>
                     </div>
                     

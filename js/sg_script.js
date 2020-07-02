@@ -1,1 +1,7 @@
-console.log('script ok');
+$(document).ready(function(){
+    console.log('script');
+
+
+
+})
+
