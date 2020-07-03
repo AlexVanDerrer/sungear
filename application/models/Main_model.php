@@ -17,14 +17,10 @@ class Main_model extends CI_Model
 
     public function orderRepair() {
         $this->load->library('email');
-      
-        $config['smtp_host'] = 'smtp-18.1gb.ru';
-        $config['smtp_user'] = 'u98456';
-        $config['smtp_pass'] = '70042dc8';
-        $config['smtp_port'] = '25';
-        
+        $config['mailtype'] = 'html';
         $this->email->initialize($config);
-
+        $this->email->clear();
+      
         $customName = $this->input->post('customName');
         $customPhone = $this->input->post('customPhone');
         $customText = $this->input->post('customText');
@@ -33,28 +29,53 @@ class Main_model extends CI_Model
         $isOrder = $this->input->post('order'); 
         // $callMe = @$_POST['callMe'];
 
-        $this->email->from('info@sungear.ru', 'SunGear.ru');
-        $this->email->to('borisow.a.s@yandex.ru');
+        $this->email->from('zakaz@sungear.ru', '🔥SunGear.ru');
+        $this->email->to('zakaz@sungear.ru');
         // $this->email->cc('another@another-example.com');
         // $this->email->bcc('them@their-example.com');
 
-        $subject = 'Новый клиент!!!';
+        $subject = 'SunGear.ru - NEW!💥';
 
         $mess = <<<HTML
-        <p>Поступил новый заказ от клиента: {$customName}</p>
-        <p>Телефон для связи: {$customPhone} </p>
-        <p>Модель АКПП: {$modelPart}</p>
-        <p>Забрать/привезти: {$delivery}</p>
-        <p>Текст сообщения: {$customText}</p>
+            <h4>Поступил новый заказ</h4>
+            <table border="1">
+                <tr>
+                    <td>Клиент:</td>
+                    <td><b>{$customName}<b></td>
+                </tr>
+                <tr>
+                    <td>Телефон для связи:</td>
+                    <td><b>{$customPhone}</b></td>
+                </tr>
+                <tr>
+                    <td>Модель АКПП:</td>
+                    <td>{$modelPart}</td>
+                </tr>
+                <tr>
+                    <td>Забрать/привезти:</td>
+                    <td>{$delivery}</td>
+                </tr>
+                <tr>
+                    <td>Текст сообщения:</td>
+                    <td>{$customText}</td>
+                </tr>
+                
+            </table>
+            <style>
+                table {
+                    border-collapse: collapse;
+                }
+                td { 
+                    max-width: 300px;
+                    padding: 8px; 
+                    
+                }
+            </style>
 HTML;
 
         $this->email->subject($subject);
         $this->email->message($mess);
-
         $this->email->send();
-
-
-        // https://qna.habr.com/q/58228
     }
 
   public function printArr($array)

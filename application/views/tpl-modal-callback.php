@@ -23,7 +23,7 @@
                     </div>
                     <div class="row d-flex justify-content-center">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="delivery" id="inlineCheckbox1" value="1">
+                            <input class="form-check-input" type="checkbox" name="politika" id="inlineCheckbox1" value="1">
                             <label class="form-check-label" for="gridCheck">
                                 Согласие с <a class="text-decoration-none text-danger" href="politika">Политикой конфиденциальности</a>
                             </label>
