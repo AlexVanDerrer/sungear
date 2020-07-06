@@ -9,10 +9,10 @@
                 </div>
 
                 <div class="col-5 position-relative">
-                        <div class="main-links-border pl-2 mb-3">
-                            <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ремонт<br>гидротрансформаторов<br>для легкового и<br>грузового транспорта</a>
+                        <div class="main-links-border  pl-2 mb-3">
+                            <a data-toggle="collapse" class="collapse-link-js" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ремонт<br>гидротрансформаторов<br>для легкового и<br>грузового транспорта</a>
                         </div>
-                        <div class="collapse position-absolute" id="collapseExample">
+                        <div class="collapse position-absolute collapse-text-js" id="collapseExample">
                             <p class="w-75">
                                 Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
                                 Наша специализация - ремонт гидротрансформаторов и продажа запчастей для АКПП и 
@@ -46,7 +46,7 @@
                             результатов благодаря слаженной команде профессионалов, работающих с автоматическими трансмиссиями 
                             более 20 лет. Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
                         </p>
-                    <?php require 'tpl-video-block.php';?>
+                    <?php require 'tpl-repair-process.php';?>
                 </div>
             </div>
         </div>

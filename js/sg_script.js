@@ -1,7 +1,14 @@
 $(document).ready(function(){
 
-    $('')
+    $('.collapse-link-js').mouseover(() => {
+        $('.collapse-text-js').collapse('show');
+    });
 
-    console.log('script ok');
+    $('.collapse-link-js').on('mouseout', () => {
+        setTimeout(() => {
+            $('.collapse-text-js').collapse('hide')
+        }, 2000);
+    })
+
 })
 
