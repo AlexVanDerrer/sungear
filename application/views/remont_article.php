@@ -9,7 +9,7 @@
         </div>
         <div class="col-lg-9">
             <div class="container-fluid mb-5" id="what-is-hydrotrans">
-                <h4 class="text-center mb-3">Что такое гидротрансформатор?</h4>
+                <h1 class="text-center mb-3">Что такое гидротрансформатор?</h1>
                 <div class="row">
                     <div class="col-lg-5">
                         <p>
@@ -49,7 +49,7 @@
             </div>
             
             <div class="container-fluid mb-5" id="main-faulte">
-                <h5 class="text-center mb-3"><span class="block-title">Основные неисправности</span></h5>
+                <h2 class="text-center mb-3"><span class="block-title">Основные неисправности</span></h2>
                 <div class="container">
                     <div class="row">
                         <div class="col">

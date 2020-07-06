@@ -5,7 +5,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col">
-                            <h5 class="text-center my-5"><span style="color: black; font-weight: 200">Мы так же занимаемся</span></h5>
+                            <h2 class="text-center my-5"><span style="color: black; font-weight: 200">Мы так же занимаемся</span></h2>
                         </div>
                     </div>
                     <div class="row">

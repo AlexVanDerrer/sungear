@@ -1,7 +1,7 @@
 <section id="contacts-block">
     <div class="w-100 p-5" style="background: url('../img/contacts_bg.png') no-repeat; background-size: cover; background-position: center;">
         <div class="container p-0 ">
-            <h5 class="text-start"><span>Контакты</span></h5>
+            <h1 class="text-start"><span>Контакты</span></h1>
             <div class="row">
                 <div class="col-lg-3" >
                     <div class="w-100 h-100 p-4 shadow-lg" style="background-color: #fafafa; border-radius: 6px;">
@@ -15,6 +15,9 @@
                         </p>
                         <span class="small-title">Связь с нами</span>
                         <p>
+                            <?=$this->config->item('phone2');?>
+                        </p>
+                        <p>
                             <?=$this->config->item('phone1');?>
                         </p>
                         <p>
@@ -24,7 +27,7 @@
                         <div class="d-flex justify-content-start mt-3">            
                             <span class="mr-2"><a href="#"><img class="align-middle" src="img/vk2.png" width="48" height="45" alt="" loading="lazy"></a></span>
                             <span class="mr-2"><a href="#"><img class="align-middle" src="img/insta2.png" width="41" height="40" alt="" loading="lazy"></a></span>
-                            <span class="mr-2"><a href="#"><img class="align-middle" src="img/youtube2.png" width="56" height="42" alt="" loading="lazy"></a></span>
+                            <span class="mr-2"><a href="<?=$this->config->item('youtube_link'); ?>"><img class="align-middle" src="img/youtube2.png" width="56" height="42" alt="" loading="lazy"></a></span>
                         </div>
                         <span class="small-title">Мессенджеры</span>
                         <div class="d-flex justify-content-start mt-3">            
@@ -36,7 +39,7 @@
                 </div>
                 <div class="col-lg-9">
                     <div class="w-100 h-100 p-4 shadow-lg" style="background-color: #fafafa; border-radius: 6px;">
-                        <h6 class="text-start"><span>Напишите нам</span></h6>
+                        <h2 class="text-start"><span>Напишите нам</span></h2>
                         <form method="post">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
@@ -62,10 +65,11 @@
                         </form>
                         <div class="rekvizity">
                         <h6 class="mt-4">Информация о продавце:</h6>
-                        <p>ООО «________________»</p>
-                        <p>ИНН: 7714944374 <br>КПП: 77340100</p>
-                        <p>Юридический адрес: <br><b>123308, г. Москва, Силикатный 2-й проезд, дом 34, строение 1</b></p>
-                        <p>Почтовый адрес: <br><b>123007, г. Москва, 1-я Магистральная улица, дом 29 строение 1</b></p>
+                        <p>ИП Севостьянова Елена Валерьевна</p>
+                        <p><b>ИНН: </b> 781406847512</p>
+                        <p><b>Юридический адрес:</b><br><?=$this->config->item('uradress');?></p>
+                        <p><b>Фактический адрес:</b><br><?=$this->config->item('adress');?></p>
+                        <p><b>Банковские реквизиты:</b><br><?=$this->config->item('rekvizit');?></p>
                         </div>
                     </div>
                     

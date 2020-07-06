@@ -10,7 +10,7 @@
         </div>
         <div class="col-lg-9">
             <div class="container-fluid mb-5" id="repair_6dct450">
-                <h4 class="text-center mb-5">Ремонт 6DCT450</h4>
+                <h1 class="text-center mb-5">Ремонт 6DCT450</h1>
                 <div class="row">
                     <div class="col-lg-4">
                         <p>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="container-fluid mb-5" id="reasons-failure">
-                <h5 class="text-center mb-5"><span class="block-title">Причины поломки</span></h5>
+                <h2 class="text-center mb-5"><span class="block-title">Причины поломки</span></h2>
                 <div class="row shadow" style="border: 1px solid #f0f0f0;">
                     <div class="col-4 pl-0">
                         <div class="list-group" id="list-tab" role="tablist">
@@ -66,7 +66,10 @@
             <div class="container-fluid mb-5" id="repair-process">
                 <div class="row">
                     <div class="col">
-                        <?php require 'tpl-repair-process.php'; ?>
+                    <h2 class="text-center"><span class="block-title">Процесс ремонта гидротрансформатора </span></h2>
+                    <div class="video-block embed-responsive embed-responsive-16by9 mt-5 mx-auto">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q-Ww26HIWIc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -76,13 +79,13 @@
 <section id="order-block">
     <div class="w-100 p-5" style="background: url('../img/21_2.png') no-repeat; background-size: cover; background-position: center;">
         <div class="container p-0 ">
-            <h5 class="text-center"><span class="text-white">Заказать ремонт 6DCT450/MPS6 PowerShift</span></h5>
+            <h2 class="text-center"><span class="text-white">Заказать ремонт 6DCT450/MPS6 PowerShift</span></h2>
             <div class="row">
                 <div class="col-lg-3" >
                     <div class="w-100 h-100 p-4" style="background-color: RGB(63,61,61,.5); border-radius: 6px;">
                         <span class="small-title text-white">Адрес</span>
                         <p>
-                        г. Санкт-Петербург, Выборгская набережная, 55, корпус 1 
+                            <?=$this->config->item('adress');?>
 
                         </p>
                         <span class="small-title text-white">Режим работы</span>
@@ -91,10 +94,13 @@
                         </p>
                         <span class="small-title text-white">Связь с нами</span>
                         <p>
-                        +7 (911) 101-40-09
+                            <?=$this->config->item('phone2');?>
                         </p>
                         <p>
-                        +7 (911) 101-40-09
+                            <?=$this->config->item('phone1');?>
+                        </p>
+                        <p>
+                            <?=$this->config->item('email');?>
                         </p>
                         <span class="small-title text-white">Мессенджеры</span>
                         <div class="d-flex justify-content-start mt-3">            

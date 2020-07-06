@@ -9,8 +9,8 @@
                 </div>
 
                 <div class="col-5 position-relative">
-                        <div class="main-links-border  pl-2 mb-3">
-                            <a data-toggle="collapse" class="collapse-link-js" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ремонт<br>гидротрансформаторов<br>для легкового и<br>грузового транспорта</a>
+                        <div class="main-links-border collapse-link-js pl-2 mb-3">
+                            <a data-toggle="collapse" class="" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ремонт<br>гидротрансформаторов<br>для легкового и<br>грузового транспорта</a>
                         </div>
                         <div class="collapse position-absolute collapse-text-js" id="collapseExample">
                             <p class="w-75">
@@ -39,8 +39,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <h3 class="text-center mt-5"><span class="block-title">SunGear - ремонт гидротрансформаторов, запчасти на АКПП, ремонт 6DCT450</span></h3>
-                        <p class="mt-5">
+                    <h1 class="text-center mt-5" style="font-size: 20px;"><span class="block-title">SunGear - ремонт гидротрансформаторов, запчасти на АКПП, ремонт 6DCT450</span></h1>
+                        <p class="mt-5 mb-10">
                             Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
                             Наша специализация - ремонт и продажа запчастей для АКПП и вариаторов. Мы достигли высоких 
                             результатов благодаря слаженной команде профессионалов, работающих с автоматическими трансмиссиями 
@@ -55,7 +55,7 @@
         <div id="second-block" class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <h3 class="text-center mt-5"><span class="block-title">Порядок отправки запчасти в ремонт (или привезти в офис)</span></h3>
+                    <h2 class="text-center mt-5"><span class="block-title">Порядок отправки запчасти в ремонт (или привезти в офис)</span></h2>
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -129,7 +129,7 @@
     </section>
     <section id="pay-block" class="mb-5"> 
         <div class="container-fluid">
-            <h3 class="text-center mt-5 mb-5"><span class="block-title">Гарантии и оплата</span></h3>
+            <h2 class="text-center mt-5 mb-5"><span class="block-title">Гарантии и оплата</span></h2>
             <div class="row mt-5">
                 <div class="col-4">
                     <div class="row">

@@ -48,7 +48,7 @@
                                     <span class="mr-2"><a href="#"><img class="align-middle" src="img/whatsapp.png" width="29" height="26" alt="" loading="lazy"></a></span>
                                     <span class="mr-2"><a href="#"><img class="align-middle" src="img/vk.png" width="22" height="21" alt="" loading="lazy"></a></span>
                                     <span class="mr-2"><a href="#"><img class="align-middle" src="img/insta.png" width="19" height="19" alt="" loading="lazy"></a></span>
-                                    <span class=""><a href="#"><img class="align-middle" src="img/youtube.png" width="28" height="26" alt="" loading="lazy"></a></span>
+                                    <span class=""><a href="<?=$this->config->item('youtube_link');?>"><img class="align-middle" src="img/youtube.png" width="28" height="26" alt="" loading="lazy"></a></span>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
     <div class="container-fluid copyright-block">
         <div class="row">
             <div class="col-lg-6 d-flex justify-content-center"> <span class="mt-5 text-secondary" >SunGear © 2020. Все права защищены</span> </div>
-            <div class="col-lg-6 d-flex justify-content-center anchors"> <span class="mt-4"><img src="img/image_youtube.png" width="305" height="76" alt="" loading="lazy"></span></div>
+            <div class="col-lg-6 d-flex justify-content-center anchors"><span class="mt-4 mb-4"><a href="<?=$this->config->item('youtube_link'); ?>"><img src="img/image_youtube.png" width="305" height="76" alt="" loading="lazy"></a></span></div>
         </div>
     </div>
 </section>

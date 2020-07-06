@@ -9,7 +9,7 @@
         </div>
         <div class="col-lg-9">
             <div class="container-fluid mb-5" id="feedback-form">
-                <h4 class="text-center mb-3">Ремонт гидротрансформаторов в Санкт-Петербурге</h4>
+                <h1 class="text-center mb-3">Ремонт гидротрансформаторов в Санкт-Петербурге</h1>
                     <p>
                         Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
                         Наша специализация - ремонт и продажа запчастей для АКПП и вариаторов. Мы достигли высоких 
@@ -22,7 +22,7 @@
                     </p>
 
                     <div class="container-fluid shadow my-5 p-5" style="border: 1px solid f8f8f8; border-radius: 6px; background-color: #f0f0f0">
-                        <h5>Поиск и заказ ремонта гидротрансформатора по модели АКПП</h5>
+                        <h2>Поиск и заказ ремонта гидротрансформатора по модели АКПП</h2>
                         <div class="row mt-3">
                             <div class="col-5">
                                 <form method="post">

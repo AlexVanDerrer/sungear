@@ -1,4 +1,4 @@
-<h5 class="text-center mb-5"><span class="block-title">Этапы работ по ремонту гидротрансформатора</span></h5>
+<h2 class="text-center mb-5"><span class="block-title">Этапы работ по ремонту гидротрансформатора</span></h2>
     <div class="row">
         <div class="col-6 p-0 d-flex align-items-center">
             <div class="container">

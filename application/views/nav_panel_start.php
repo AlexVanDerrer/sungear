@@ -20,8 +20,8 @@
                     <a class="nav-link" href="contacts">Контакты</a>
                 </li>
                 <li class="nav-item d-inline-block mr-5 my-2">
-                    <span class="nav-link p-0 text-dark"><b><i class="fa fa-phone mr-2 text-danger" aria-hidden="true"></i><?=$this->config->item('phone1');?></b></span>
-                    <span class="nav-link p-0  text-dark"><b><i class="fa fa-envelope-o mr-2 text-danger" aria-hidden="true"></i><?=$this->config->item('email');?></b></span>
+                    <span class="nav-link p-0 text-dark"><b><?=$this->config->item('phone1');?></b></span>
+                    <span class="nav-link p-0  text-dark"><b><?=$this->config->item('email');?></b></span>
                 </li>
 
             </ul>

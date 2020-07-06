@@ -3,10 +3,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 /* Custom config */
 
-$config['phone1'] = '+7 (911) 101-40-09';
-$config['phone2'] = '+7 (911) 970 31 01';
-$config['email'] = 'office@sungear.ru';
-$config['adress'] = 'г. Санкт-Петербург, Выборгская набережная, 55, корпус 1';
+$config['phone1'] = '<i class="fa fa-phone mr-2 text-danger" aria-hidden="true"></i><a href="tel:+79111014009">+7 (911) 101 40 09</a>';
+$config['phone2'] = '<i class="fa fa-phone mr-2 text-danger" aria-hidden="true"></i><a href="tel:+79119703101">+7 (911) 970 31 01</a>';
+$config['email'] = '<i class="fa fa-envelope-o mr-2 text-danger" aria-hidden="true"></i><a href="mailto:zakaz@sungear.ru">zakaz@sungear.ru</a>';
+$config['adress'] = '<i class="fa fa-home mr-2 text-danger" aria-hidden="true"></i> г. Санкт-Петербург, Выборгская набережная, 55, корпус 1';
+$config['uradress'] = '<i class="fa fa-home mr-2 text-danger" aria-hidden="true"></i> г. Санкт-Петербург, Выборгская набережная, 55, корпус 1';
+$config['rekvizit'] = 'г.Санкт-Петербург Филиал №7806 ВТБ (ПАО) <br>
+                        р\с 40802810435260004717,<br> 
+                        к\с 30101810240300000707, <br> 
+                        БИК: 044030707, <br>ОКПО: 0151815119,<br> 
+                        ОКАТО: 40270566000,<br>
+                        ОГРН: 312784726500903';
+$config['youtube_link'] = 'https://www.youtube.com/channel/UC0vBn8TzgQtRm0J0pLHaVrQ';
 
 /*
 |--------------------------------------------------------------------------
