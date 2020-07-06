@@ -28,15 +28,15 @@
                                 <span>Мы работаем:</span>
                                 <ul class="mt-3 p-0">
                                     <li>c 10:00 по 18:00</li>
-                                    <li>г. Санкт-Петербург, Выборгская набережная, 55, корпус 1</li>
+                                    <li><?=$this->config->item('adress');?></li>
                                 </ul>
                             </div>
                             <div class="col-md-6 p-0 text-right footer-left-contact">
                                 <span>С нами связаться:</span>
                                 <ul class="mt-3 p-0">
-                                    <li>+7 (911) 101 40 09</li>
-                                    <li>+7 (911) 970 31 01</li>
-                                    <li>info@sungear.ru</li>
+                                    <li><?=$this->config->item('phone1');?></li>
+                                    <li><?=$this->config->item('phone2');?></li>
+                                    <li><?=$this->config->item('email');?></li>
                                 </ul>
                             </div>
                         </div>

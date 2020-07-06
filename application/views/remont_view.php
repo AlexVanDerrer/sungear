@@ -50,15 +50,15 @@
                                     <p> Диагностика и ремонт гидротрансформатора АКПП 4T80E</p>
                                     <p><b>АКПП: </b> 4T80E</p>
                                     <p><b>Условия: </b> 
-                                        <a href="#">Гарантии</a> |
-                                        <a href="#">Работа с регионами</a> |
-                                        <a href="#">Оплата</a>
+                                        <a href="/#pay-block">Гарантии</a> |
+                                        <a href="/#second-block">Работа с регионами</a> |
+                                        <a href="/#pay-block">Оплата</a>
                                     </p>
                                 </div>   
                             </div>
                             <div class="row">
-                                <div class="col-5"><button class="btn btn-danger shadow br-20 w-100" data-toggle="modal" data-target="#exampleModal" type="button">Не знаю свою модель</button></div>
-                                <div class="col-7 d-flex justify-content-center"><button class="btn btn-danger shadow br-20 w-75" name="order" type="submit">Заказать ремонт</button></div>
+                                <div class="col-5"><button class="btn btn-red-blood shadow br-20 w-100" data-toggle="modal" data-target="#exampleModal" type="button">Не знаю свою модель</button></div>
+                                <div class="col-7 d-flex justify-content-center"><button class="btn btn-red-blood shadow br-20 w-75" name="order" type="submit">Заказать ремонт</button></div>
                             </div>
                         </form>
                     </div>

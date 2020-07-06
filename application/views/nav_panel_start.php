@@ -20,13 +20,13 @@
                     <a class="nav-link" href="contacts">Контакты</a>
                 </li>
                 <li class="nav-item d-inline-block mr-5 my-2">
-                    <span class="nav-link p-0">+7 (911) 101-40-09</span>
-                    <span class="nav-link p-0">info@sungear.ru</span>
+                    <span class="nav-link p-0 text-dark"><b><i class="fa fa-phone mr-2 text-danger" aria-hidden="true"></i><?=$this->config->item('phone1');?></b></span>
+                    <span class="nav-link p-0  text-dark"><b><i class="fa fa-envelope-o mr-2 text-danger" aria-hidden="true"></i><?=$this->config->item('email');?></b></span>
                 </li>
 
             </ul>
             <form class="form-inline mr-5 my-2">
-                <button class="btn btn-danger shadow br-20" type="button" data-toggle="modal" data-target="#exampleModal">Обратный звонок</button>
+                <button class="btn btn-red-blood shadow br-20" type="button" data-toggle="modal" data-target="#exampleModal">Обратный звонок</button>
             </form>
 
             <!-- <a class="navbar-brand mr-5" href="#">

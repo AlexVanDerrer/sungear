@@ -7,8 +7,7 @@
                     <div class="w-100 h-100 p-4 shadow-lg" style="background-color: #fafafa; border-radius: 6px;">
                         <span class="small-title">Адрес</span>
                         <p>
-                        г. Санкт-Петербург, Выборгская набережная, 55, корпус 1 
-
+                            <?=$this->config->item('adress');?>
                         </p>
                         <span class="small-title">Режим работы</span>
                         <p>
@@ -16,10 +15,10 @@
                         </p>
                         <span class="small-title">Связь с нами</span>
                         <p>
-                        +7 (911) 101-40-09
+                            <?=$this->config->item('phone1');?>
                         </p>
                         <p>
-                        +7 (911) 101-40-09
+                            <?=$this->config->item('email');?>
                         </p>
                         <span class="small-title">Мы в соцсетях</span>
                         <div class="d-flex justify-content-start mt-3">            
@@ -59,7 +58,7 @@
                                 </label>
                                 </div>
                             </div>
-                            <button class="btn btn-danger shadow br-20" name="submit" value="callback" type="submit">Отправить сообщение</button>
+                            <button class="btn btn-red-blood shadow br-20" name="submit" value="callback" type="submit" style="width: 200px;">Отправить сообщение</button>
                         </form>
                         <div class="rekvizity">
                         <h6 class="mt-4">Информация о продавце:</h6>
@@ -78,7 +77,5 @@
     </div>
 </section>
 <section id="map-block m-0">
-    <div class="container-fluid p-0">
-        <img src="img/map.png" width="100%" height="auto" alt="" loading="lazy">
-    </div>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A518a06c2feaa51249e8c4b4d88b9f94d0303cc603cf0d42c02757ce8bd975722&amp;width=100%25&amp;height=567&amp;lang=ru_RU&amp;scroll=false"></script>
 </section>

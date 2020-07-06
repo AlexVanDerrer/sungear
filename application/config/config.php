@@ -1,6 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/* Custom config */
+
+$config['phone1'] = '+7 (911) 101-40-09';
+$config['phone2'] = '+7 (911) 970 31 01';
+$config['email'] = 'office@sungear.ru';
+$config['adress'] = 'г. Санкт-Петербург, Выборгская набережная, 55, корпус 1';
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL

@@ -37,28 +37,21 @@ section {
 }
 
 .video-block {
-    background: url('../img/image20.png') no-repeat;
     max-width: 799px;
     width: auto; 
-    height: 425px; 
+    /* height: 425px;  */
     /* border: 1px solid black; */
 }
 .br-20 {
     border-radius: 20px !important;  
 }
 
-.first-img {
-    /* background-color: #E6EAF3 !important; */
-    /* filter: brightness(80%); */
-
-}
-
-.relative {
-    position: relative;
-}
-
-.absolute {
-    position: absolute;
+.btn-red-blood {
+    width: 150px;
+    color: white;
+    font-size: 14px !important;
+    background-color: #B10000;
+    border-color: #B10000;
 }
 .menu-panel {
     background: #707070;
@@ -71,7 +64,6 @@ section {
     /* margin-bottom: 300px; */
     padding-top: 200px;
     padding-bottom: 200px;
-
 }
 
 .main-links a{
@@ -92,7 +84,10 @@ section {
 .list-numbers {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
-    color: gray;
+    color: lightgray;
+}
+.list-item-block p{
+    font-size: 16px;
 }
 
 .footer-block {
@@ -140,7 +135,7 @@ section {
 } 
 .container p,
 .container-fluid label {
-    font-size: 12px;
+    font-size: 16px;
 }
 .work-stage-buttons {
     background-color: lightgray;
