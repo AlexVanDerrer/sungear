@@ -54,6 +54,14 @@ class Main extends CI_Controller {
 		$this->load->view('contacts_view');
 		$this->load->view('footer');
 	}
+	public function politika() 
+	{
+		$this->load->view('header');
+		$this->load->view('nav_panel_start');
+		$this->load->view('menu_panel');
+		$this->load->view('politika');
+		$this->load->view('footer');
+	}
 	public function repair() 
 	{
 		$this->load->view('header');

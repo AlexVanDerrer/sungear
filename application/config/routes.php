@@ -59,9 +59,11 @@ $route['remont'] = 'main/mainRepair';
 $route['remont6dct450'] = 'main/repair';
 $route['zapchasti'] = 'main/notFound';
 $route['blog'] = 'main/notFound';
-$route['politika'] = 'main/notFound';
+$route['politika'] = 'main/politika';
 $route['garantii'] = 'main/notFound';
 $route['oborydovanie'] = 'main/notFound';
 $route['article'] = 'main/getArticle';
+$route['admin'] = 'admin';
+$route['set_article'] = 'admin/set_article';
 
 
