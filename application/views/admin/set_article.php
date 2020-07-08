@@ -37,7 +37,7 @@
                     $oFCKeditor->Create();
                 ?>  
                 </div>
-
+                <!-- <input type="hidden" class="form-control" name="date" value="<?=date('d.m.Y');?>" > -->
                 <button type="submit" class="btn btn-success btn-large" id="add-article">Добавить</button>
             </form>
         </div>

@@ -9,7 +9,7 @@
         <a class="nav-link" href="zapchasti">Запчасти</a>
     </li>
     <li class="nav-item mr-5">
-        <a class="nav-link" href="article">Блог</a>
+        <a class="nav-link" href="blog">Блог</a>
     </li>
     <li class="nav-item mr-5">
         <a class="nav-link" href="contacts">Контакты</a>

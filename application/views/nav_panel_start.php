@@ -11,7 +11,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav text-body">
                 <li class="nav-item mr-5 my-2">
-                    <a class="nav-link" href="about">О компании</a>
+                    <a class="nav-link" href="/">О компании</a>
                 </li>
                 <li class="nav-item mr-5 my-2">
                     <a class="nav-link" href="docs">Лицензии и сертификаты <span class="sr-only">(current)</span></a>
@@ -23,7 +23,6 @@
                     <span class="nav-link p-0 text-dark"><b><?=$this->config->item('phone1');?></b></span>
                     <span class="nav-link p-0  text-dark"><b><?=$this->config->item('email');?></b></span>
                 </li>
-
             </ul>
             <form class="form-inline mr-5 my-2">
                 <button class="btn btn-red-blood shadow br-20" type="button" data-toggle="modal" data-target="#exampleModal">Обратный звонок</button>

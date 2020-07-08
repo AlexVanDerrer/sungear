@@ -70,7 +70,9 @@ class Main extends CI_Controller {
 		$this->load->view('remont_6dct450');
 		$this->load->view('footer');
 	}
-	public function getArticle() {
+
+	public function getArticle() 
+	{
 		$this->load->view('header');
 		$this->load->view('nav_panel_start');
 		$this->load->view('menu_panel');
@@ -78,11 +80,30 @@ class Main extends CI_Controller {
 		$this->load->view('footer');
 	}
 
-	public function notFound() {
+	public function notFound() 
+	{
 		$this->load->view('header');
 		$this->load->view('nav_panel_start');
 		$this->load->view('menu_panel');
 		$this->load->view('404');
+		$this->load->view('footer');
+	}
+
+	public function blog() 
+	{
+		$this->load->view('header');
+		$this->load->view('nav_panel_start');
+		$this->load->view('menu_panel');
+		$this->load->view('blog');
+		$this->load->view('footer');
+	}
+	public function show_article($id) 
+	{
+		$data['article'] = $this->main_model->getArticleById($id);
+		$this->load->view('article_header', $data);
+		$this->load->view('nav_panel_start');
+		$this->load->view('menu_panel');
+		$this->load->view('article', $data);
 		$this->load->view('footer');
 	}
 }

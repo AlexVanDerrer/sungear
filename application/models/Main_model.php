@@ -4,6 +4,7 @@ class Main_model extends CI_Model
   public function __construct() 
   {
         parent::__construct();
+        $this->load->database();
     }
 
     public function getArrFromXlsx()
@@ -13,6 +14,19 @@ class Main_model extends CI_Model
         $parts = $xlsx->rows();
 
         return $parts;
+    }
+    /**
+     * 
+     */
+    public function getAllArticles(){
+		$query = $this->db->query("SELECT * FROM articles");
+        $arrArticles = $query->result_array();
+        return $arrArticles;
+    }
+    public function getArticleById($id) {
+        $query = $this->db->query("SELECT * FROM articles WHERE id=$id LIMIT 1");
+        $arrArticle = $query->result_array();
+        return $arrArticle[0];
     }
 
     public function orderRepair() {
@@ -78,8 +92,11 @@ HTML;
         $this->email->send();
     }
 
-  public function printArr($array)
-  {
-    echo "<pre>" . print_r($array, true) . "</pre>";
-  }
+    public function example() {
+        echo 'example';
+    }
+    public function printArr($array)
+    {
+        echo "<pre>" . print_r($array, true) . "</pre>";
+    }
 }

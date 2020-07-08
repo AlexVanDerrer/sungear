@@ -64,10 +64,6 @@
                     </div>
             </div>
 
-            <div class="container-fluid mb-5" id="work-stage">
-                <?php require 'tpl-work-stage.php'; ?>
-            </div>
-
             <div class="container-fluid mb-5" id="repair-process">
                 <div class="row">
                     <div class="col">
@@ -75,6 +71,12 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container-fluid mb-5" id="work-stage">
+                <?php require 'tpl-work-stage.php'; ?>
+            </div>
+
+
         </div>
     </div>
 </div>

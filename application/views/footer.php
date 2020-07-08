@@ -5,10 +5,10 @@
                 <div class="col-6 col-lg-3 footer-left-link ">
                     <span class="block-title">О компании</span>
                     <ul class="mt-3 p-0">
-                        <li><a href="about">О нас</a></li>
-                        <li><a href="oborydovanie">Наше оборудование</a></li>
+                        <li><a href="/">О нас</a></li>
+                        <!-- <li><a href="oborydovanie">Наше оборудование</a></li> -->
                         <li><a href="docs">Сертификаты</a></li>
-                        <li><a href="garantii">Гарантии</a></li>
+                        <li><a href="/">Гарантии</a></li>
                         <li><a href="politika">Политика конфиденциальности</a></li>
                         <li><a href="contacts">Контакты</a></li>
                     </ul>

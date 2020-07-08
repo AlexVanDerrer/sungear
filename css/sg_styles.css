@@ -81,6 +81,18 @@ section {
     background-color: #B10000;
     border-color: #B10000;
 }
+
+.btn-red-border {
+    width: 150px;
+    color: black;
+    font-size: 14px !important;
+    border-color: #B10000;
+}
+.btn-red-border:hover {
+    color: white;
+    background-color: #B10000;
+}
+
 .menu-panel {
     background: #707070;
 }
