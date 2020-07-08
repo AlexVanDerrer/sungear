@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => 'sungeardb',
+	'hostname' => 'mysql101.1gb.ru', // mysql101.1gb.ru
+	'username' => 'gb_sungear_bd', // gb_sungear_bd
+	'password' => 'c64zf37d6zx', // c64zf37d6zx
+	'database' => 'gb_sungear_bd', // gb_sungear_bd
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
