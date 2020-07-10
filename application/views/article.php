@@ -1,4 +1,4 @@
-<div class="container my-5">
+<div class="container mt-5"  style="border-bottom: 1px solid red;">
     <ol class="breadcrumb bg-light">
         <li class="breadcrumb-item"><a href="/">Главная</a></li>
         <li class="breadcrumb-item"><a href="blog">Блог</a></li>
@@ -11,3 +11,5 @@
         </div>
     </div>
 </div>
+
+<?php require 'tpl-another-service.php'; ?>

@@ -15,6 +15,10 @@ $config['rekvizit'] = 'г.Санкт-Петербург Филиал №7806 В�
                         ОКАТО: 40270566000,<br>
                         ОГРН: 312784726500903';
 $config['youtube_link'] = 'https://www.youtube.com/channel/UC0vBn8TzgQtRm0J0pLHaVrQ';
+$config['whatsapp'] = 'https://wa.me/79119703101';
+$config['viber'] = 'viber://add?number=79119703101';
+$config['vk'] = 'https://vk.com/';
+$config['insta'] = 'https://www.instagram.com/';
 
 /*
 |--------------------------------------------------------------------------

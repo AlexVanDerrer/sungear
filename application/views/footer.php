@@ -6,7 +6,7 @@
                     <span class="block-title">О компании</span>
                     <ul class="mt-3 p-0">
                         <li><a href="/">О нас</a></li>
-                        <!-- <li><a href="oborydovanie">Наше оборудование</a></li> -->
+                        <li><a href="blog">Блог</a></li>
                         <li><a href="docs">Сертификаты</a></li>
                         <li><a href="/">Гарантии</a></li>
                         <li><a href="politika">Политика конфиденциальности</a></li>
@@ -34,7 +34,7 @@
                             <div class="col-md-6 p-0 text-right footer-left-contact">
                                 <span>С нами связаться:</span>
                                 <ul class="mt-3 p-0">
-                                    <li><?=$this->config->item('phone1');?></li>
+                                    <!-- <li><?=$this->config->item('phone1');?></li> -->
                                     <li><?=$this->config->item('phone2');?></li>
                                     <li><?=$this->config->item('email');?></li>
                                 </ul>
@@ -44,11 +44,11 @@
                         <div class="row ml-5">
                             <div class="col p-0">            
                                 <div class="d-flex justify-content-end mt-3">            
-                                    <span class="mr-2"><a href="#"><img class="align-middle" src="img/viber.png" width="22" height="22" alt="" loading="lazy"></a></span>
-                                    <span class="mr-2"><a href="#"><img class="align-middle" src="img/whatsapp.png" width="29" height="26" alt="" loading="lazy"></a></span>
-                                    <span class="mr-2"><a href="#"><img class="align-middle" src="img/vk.png" width="22" height="21" alt="" loading="lazy"></a></span>
-                                    <span class="mr-2"><a href="#"><img class="align-middle" src="img/insta.png" width="19" height="19" alt="" loading="lazy"></a></span>
-                                    <span class=""><a href="<?=$this->config->item('youtube_link');?>"><img class="align-middle" src="img/youtube.png" width="28" height="26" alt="" loading="lazy"></a></span>
+                                    <span class="mr-2"><a target="_blank" href="<?=$this->config->item('viber');?>"><img class="align-middle" src="img/viber.png" width="22" height="22" alt="" loading="lazy"></a></span>
+                                    <span class="mr-2"><a target="_blank" href="<?=$this->config->item('whatsapp');?>"><img class="align-middle" src="img/whatsapp.png" width="29" height="26" alt="" loading="lazy"></a></span>
+                                    <span class="mr-2"><a target="_blank" href="<?=$this->config->item('vk');?>"><img class="align-middle" src="img/vk.png" width="22" height="21" alt="" loading="lazy"></a></span>
+                                    <span class="mr-2"><a target="_blank" href="<?=$this->config->item('insta');?>"><img class="align-middle" src="img/insta.png" width="19" height="19" alt="" loading="lazy"></a></span>
+                                    <span class=""><a target="_blank" href="<?=$this->config->item('youtube_link');?>"><img class="align-middle" src="img/youtube.png" width="28" height="26" alt="" loading="lazy"></a></span>
                                 </div>
                             </div>
                         </div>
@@ -65,6 +65,72 @@
         </div>
     </div>
 </section>
+<style>
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	/* background-color: #B10000; */
+    color:#FFF;
+    border: 2px solid red;
+	border-radius:50px;
+    text-align:center;
+    z-index: 1;
+}
+
+.my-float{
+    color: red;
+    margin-top: 8px;
+    font-size: 32px;
+}
+
+.pulse {
+  /* margin:100px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  cursor: pointer; */
+  box-shadow: 0 0 0 rgba(255, 0, 0, 0.4);
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+      box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+  }
+}
+</style>
+
+<button class="btn pulse float" data-toggle="modal" data-target="#exampleModal">
+    <i class="fa fa-phone my-float"></i>
+</button>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

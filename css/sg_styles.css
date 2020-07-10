@@ -1,3 +1,16 @@
+html {
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+::-moz-scrollbar {
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     position: relative;
@@ -25,8 +38,6 @@ h2 {
 section {
     width: 100%;
     height: auto;
-    /* border: 1px solid black; */
-    /* margin-bottom: 10px; */
 }
 #another-service {
     background-color: #f0f0f0;
@@ -51,7 +62,7 @@ section {
     font-size: 14px;
     color: black;
 }
-#navbarSupportedContent ul li a{
+.navbar-phone ul li a{
     color: black;
     text-decoration: none;
 
@@ -63,12 +74,13 @@ section {
     border-bottom: 2px solid red;
     font-weight: bold;
 }
-
+.work-stage-p {
+    font-size:26px; 
+    color: red;
+}
 .video-block {
     max-width: 799px;
     width: auto; 
-    /* height: 425px;  */
-    /* border: 1px solid black; */
 }
 .br-20 {
     border-radius: 20px !important;  
@@ -101,7 +113,6 @@ section {
 }
 
 .main-links {
-    /* margin-bottom: 300px; */
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -132,7 +143,6 @@ section {
 
 .footer-block {
     width: 100%;
-    /* height: 392px; */
     background-color: #232830;
 }
 .footer-contact {
@@ -144,7 +154,6 @@ section {
 }
 .copyright-block {
     width: 100%;
-    /* height: 123px; */
     background-color: #191D23;
 }
 .footer-left-link ul li,
@@ -198,22 +207,12 @@ section {
 }
 .list-group {
     border-radius: 0;
-    /* border: none; */
 }
 .list-group-item.active {
     background-color: lightslategrey;
     border-color: gray;
 }
 
-
-
-
-@media (max-width: 1199.98px) { 
-    /* .first-img {
-        height: 100%;
-
-    } */
-}
 
 /* Средние девайсы («таблетки», < 992px)  */
 @media (max-width: 991.98px) { 

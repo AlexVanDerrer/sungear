@@ -1,5 +1,5 @@
 <section id="start-block" class="d-none d-lg-block">
-    <div class="w-100 p-5 first-img bg-secondary" style="background: url('../img/main_merged2.png') no-repeat; background-size: cover; background-position: center;">
+    <div class="w-100 p-5 first-img bg-secondary" style="background: url('../img/background2.png') no-repeat; background-size: cover; background-position: center;">
         <div class="container-fluid text-white main-links">
             <div class="row align-items-center">
                 <div class="col-4 ">
@@ -9,10 +9,10 @@
                 </div>
 
                 <div class="col-5 position-relative">
-                        <div class="main-links-border collapse-link-js pl-2 mb-3">
+                        <div class="main-links-border collapse-link-main pl-2 mb-3">
                             <a data-toggle="collapse" class="" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ремонт<br>гидротрансформаторов<br>для легкового и<br>грузового транспорта</a>
                         </div>
-                        <div class="collapse position-absolute collapse-text-js" id="collapseExample">
+                        <div class="collapse position-absolute collapse-text-main" id="collapseExample">
                             <p class="w-75">
                                 Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
                                 Наша специализация - ремонт гидротрансформаторов и продажа запчастей для АКПП и 
@@ -25,10 +25,32 @@
                 </div>
 
                 <div class="col-3">
-                    <div class="main-links-border pl-2">
+                    <div class="main-links-border pl-2 mb-3 collapse-link-dct">
                         <a href="remont6dct450">Ремонт 6DСT450 <br>Powershift</a>
                     </div>
+                    <div class="collapse position-absolute collapse-text-dct" id="collapseExample">
+                        <p class="w-75">
+                            Выполняем ремонт и восстановление 6DCT450/MPS6 PowerShift. Также, есть услуга по восстановлению (шлифовка) конусов вариатора.  
+                        </p>
+                        <a class="btn btn-red-blood shadow br-20 mt-3 p-2" href="remont6dct450">Подробнее</a>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="mobile-block" class="d-lg-none">
+    <div class="container-fluid" style="background: url('../img/zap2.png') no-repeat; background-size: cover; background-position: center;" >
+        <div class="row text-center">
+            <div class="col-4 py-5">
+                <a class="mb-1 block-title text-light" href="zapchasti">Запчасти для АКПП, CVT и DSG</a>
+            </div>
+            <div class="col-4 py-5">
+                <a href="remont" class="mb-1 block-title text-light">Ремонт гидротрансформаторов для легкового и грузового транспорта</a>
+            </div>
+            <div class="col-4 py-5">
+                <a href="remont6dct450" class="mb-1 block-title text-light">Ремонт 6DСT450 Powershift</a>
             </div>
         </div>
     </div>
@@ -41,10 +63,8 @@
                 <div class="col">
                     <h1 class="text-center mt-5" style="font-size: 20px;"><span class="block-title">SunGear - ремонт гидротрансформаторов, запчасти на АКПП, ремонт 6DCT450</span></h1>
                         <p class="mt-5 mb-10">
-                            Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
-                            Наша специализация - ремонт и продажа запчастей для АКПП и вариаторов. Мы достигли высоких 
-                            результатов благодаря слаженной команде профессионалов, работающих с автоматическими трансмиссиями 
-                            более 20 лет. Мы — компания, завоевавшая деловую репутацию и доверие среди покупателей и клиентов. 
+                            Мы - ремнотная мастерская с профессиональной командой. На протяжении 20 лет мы изо дня в день ремонтируем гидротрансформаторы, восстанавливаем PowerShift DCT450, продаем запчасти для АКПП и сотрудничаем с многими автосервисами и магазинами автомобильных запчастей. 
+                            Наша компания привлекла в двухтысячных годах шикарных профессионалов в сфере ремонта АКПП и мы уверенно держимся на рынке в России и ее субъектах от Санкт-Петербурга до Екатеринбурга и далее.  
                         </p>
                     <?php require 'tpl-repair-process.php';?>
                 </div>
@@ -115,7 +135,7 @@
                                     <div class="col-10 d-flex align-items-end">
                                         <p>
                                             Можно привезти его к нам в офис самостоятельно. Cообщите менеджеру об отправке по почте или по номеру телефона 
-                                            <span><b><?=$this->config->item('phone1');?></b></span>
+                                            <span><b><?=$this->config->item('phone2');?></b></span>
                                         </p>
                                     </div>
                                 </div>
@@ -160,7 +180,7 @@
                 <div class="col-8">
                     <div class="list-item-block">
                         <p>
-                        Мы - высококлассная команда, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis id quam rem repellat quia expedita porro molestiae, dignissimos illo enim, corporis esse aut dolorem nesciunt provident laborum nulla necessitatibus tenetur!
+                            Мы - высококлассная команда с большим стажем и широкой квалификацией. Наши клиенты знают об этом, а вы можете узнать об этом наглядно. 
                         </p>
                         <a class="btn btn-red-blood shadow br-20 mt-3" href="docs">Подробнее</a>
                     </div>
@@ -181,7 +201,6 @@
                         <p>
                         2. Банковская карта.
                         Для выбора оплаты товара с помощью банковской карты на соответствующей странице необходимо нажать кнопку «Оплата заказа банковской картой».
-                        Оплата происходит через АО «____» с использованием Банковских карт  
                         </p>
                     </div>
                 </div>

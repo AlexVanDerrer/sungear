@@ -17,22 +17,22 @@
                         <p>
                             <?=$this->config->item('phone2');?>
                         </p>
-                        <p>
+                        <!-- <p>
                             <?=$this->config->item('phone1');?>
-                        </p>
+                        </p> -->
                         <p>
                             <?=$this->config->item('email');?>
                         </p>
                         <span class="small-title">Мы в соцсетях</span>
                         <div class="d-flex justify-content-start mt-3">            
-                            <span class="mr-2"><a href="#"><img class="align-middle" src="img/vk2.png" width="48" height="45" alt="" loading="lazy"></a></span>
-                            <span class="mr-2"><a href="#"><img class="align-middle" src="img/insta2.png" width="41" height="40" alt="" loading="lazy"></a></span>
-                            <span class="mr-2"><a href="<?=$this->config->item('youtube_link'); ?>"><img class="align-middle" src="img/youtube2.png" width="56" height="42" alt="" loading="lazy"></a></span>
+                            <span class="mr-2"><a target="_blank" href="<?=$this->config->item('vk'); ?>"><img class="align-middle" src="img/vk2.png" width="48" height="45" alt="" loading="lazy"></a></span>
+                            <span class="mr-2"><a target="_blank" href="<?=$this->config->item('insta'); ?>"><img class="align-middle" src="img/insta2.png" width="41" height="40" alt="" loading="lazy"></a></span>
+                            <span class="mr-2"><a target="_blank" href="<?=$this->config->item('youtube_link'); ?>"><img class="align-middle" src="img/youtube2.png" width="56" height="42" alt="" loading="lazy"></a></span>
                         </div>
                         <span class="small-title">Мессенджеры</span>
                         <div class="d-flex justify-content-start mt-3">            
-                            <span class="mr-2"><a href="#"><img class="align-middle" src="img/viber_d.png" width="47" height="47" alt="" loading="lazy"></a></span>
-                            <span class="mr-2"><a href="#"><img class="align-middle" src="img/whatsapp_d.png" width="61" height="55" alt="" loading="lazy"></a></span>
+                            <span class="mr-2"><a target="_blank" href="<?=$this->config->item('viber'); ?>"><img class="align-middle" src="img/viber_d.png" width="47" height="47" alt="" loading="lazy"></a></span>
+                            <span class="mr-2"><a target="_blank" href="<?=$this->config->item('whatsapp'); ?>"><img class="align-middle" src="img/whatsapp_d.png" width="61" height="55" alt="" loading="lazy"></a></span>
                         </div>
                     </div>
 
@@ -43,14 +43,17 @@
                         <form method="post">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" name="customName" id="feedbackInputName" placeholder="Ваше имя">
+                                    <?php echo form_error('customName','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
+                                    <input value="<?php echo set_value('customName'); ?>" type="text" class="form-control" name="customName" id="feedbackInputName" placeholder="Ваше имя">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" name="customPhone" id="feedbackInputNumber" placeholder="+7(___)___-__-__">
+                                    <?php echo form_error('customPhone','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
+                                    <input value="<?php echo set_value('customPhone'); ?>" type="text" class="form-control" name="customPhone" id="feedbackInputNumber" placeholder="+7(___)_______">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress">Опишите проблему</label>
+                                <?php echo form_error('customText','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
                                 <textarea rows="6" class="form-control" aria-label="With textarea" name="customText" placeholder="Текст сообщения"></textarea>
                             </div>
                             <div class="form-group">

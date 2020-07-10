@@ -1,10 +1,10 @@
-<div class="container my-5 scroll-container">
+<div class="container mt-5 scroll-container"  style="border-bottom: 1px solid red;">
     <div class="row">
         <div class="col-lg-3 mb-5">
             <div class="list-group sticky-top" id="scroll-list">
                 <a class="list-group-item list-group-item-action" href="#repair_6dct450">Ремонт 6DCT450</a>
                 <a class="list-group-item list-group-item-action" href="#reasons-failure">Причины поломки</a>
-                <a class="list-group-item list-group-item-action" href="#work-stage">Этапы работ</a>
+                <!-- <a class="list-group-item list-group-item-action" href="#work-stage">Этапы работ</a> -->
                 <a class="list-group-item list-group-item-action" href="#repair-process">Процесс ремонта</a>
             </div>
         </div>
@@ -61,17 +61,43 @@
                 </div>
             </div>
 
-            <div class="container-fluid mb-5">
-                <div class="row">
-                    <div class="col">
 
+
+
+
+    <div class="w-100 p-3 br-20 mb-5" style="background: url('../img/21_2.png') no-repeat; background-size: cover; background-position: center;">
+        <div class="container p-0 ">
+            <h2 class="text-center"><span class="text-white block-title">Заказать ремонт 6DCT450/MPS6 PowerShift</span></h2>
+            <p  class="mt-4 text-center text-light" style="font-size: 14px;">
+                Выполняем ремонт PowerShift DCT450 в Санкт-Петербурге и России, <br>на профессиональном оборудовании с гарантией качества, чтобы радовать вас и ваш автомобиль!  
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="w-100 h-100">
+
+                        <form class="text-white" method="post">
+                            <div class="form-row ">
+                                <div class="form-group col-md-4">
+                                    <input type="text" class="form-control br-20" name="customNameForm" id="feedbackInputNameForm" placeholder="Ваше имя">
+                                    <?php echo form_error('customNameForm','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <input type="text" class="form-control br-20" name="customPhoneForm" id="feedbackInputNumberForm" placeholder="+7(___)___-__-__">
+                                    <?php echo form_error('customPhoneForm','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <button class="btn btn-danger shadow br-20 w-100" name="submitForm" value="callbackForm" type="submit">Отправить сообщение</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
+                    
+            
+            
                 </div>
             </div>
-
-            <div class="container-fluid mb-5" id="work-stage">
-                <?php require 'tpl-work-stage.php'; ?>
-            </div>
+        </div>
+    </div>
 
             <div class="container-fluid mb-5" id="repair-process">
                 <div class="row">
@@ -86,6 +112,9 @@
         </div>
     </div>
 </div>
+
+<?php require 'tpl-another-service.php'; ?>
+
 <section id="order-block">
     <div class="w-100 p-5" style="background: url('../img/21_2.png') no-repeat; background-size: cover; background-position: center;">
         <div class="container p-0 ">
@@ -107,15 +136,12 @@
                             <?=$this->config->item('phone2');?>
                         </p>
                         <p>
-                            <?=$this->config->item('phone1');?>
-                        </p>
-                        <p>
                             <?=$this->config->item('email');?>
                         </p>
                         <span class="small-title text-white">Мессенджеры</span>
                         <div class="d-flex justify-content-start mt-3">            
-                            <span class="mr-2"><a href="#"><img class="align-middle" src="img/viber.png" width="22" height="22" alt="" loading="lazy"></a></span>
-                            <span class="mr-2"><a href="#"><img class="align-middle" src="img/whatsapp.png" width="29" height="26" alt="" loading="lazy"></a></span>
+                            <span class="mr-2"><a target="_blank" href="<?=$this->config->item('viber');?>"><img class="align-middle" src="img/viber.png" width="22" height="22" alt="" loading="lazy"></a></span>
+                            <span class="mr-2"><a target="_blank" href="<?=$this->config->item('whatsapp');?>"><img class="align-middle" src="img/whatsapp.png" width="29" height="26" alt="" loading="lazy"></a></span>
                         </div>
                     </div>
 
@@ -123,18 +149,21 @@
                 <div class="col-lg-9">
                     <div class="w-100 h-100 p-4" style="background-color: RGB(63,61,61,.5); border-radius: 6px;">
                         <h6 class="text-start"><span class="text-white">Напишите нам</span></h6>
-                        <form class="text-white" method="post" >
+                        <form class="text-white" method="post">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" name="customName" id="feedbackInputName" placeholder="Ваше имя">
+                                    <input value="<?php echo set_value('customName'); ?>" type="text" class="form-control" name="customName" id="feedbackInputName" placeholder="Ваше имя">
+                                    <?php echo form_error('customName','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" name="customPhone" id="feedbackInputNumber" placeholder="+7(___)___-__-__">
+                                    <input value="<?php echo set_value('customPhone'); ?>" type="text" class="form-control" name="customPhone" id="feedbackInputNumber" placeholder="+7(___)___-__-__">
+                                    <?php echo form_error('customPhone','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress">Опишите проблему</label>
-                                <textarea rows="6" class="form-control" aria-label="With textarea" name="customText" placeholder="Текст сообщения"></textarea>
+                                <textarea  value="<?php echo set_value('customText'); ?>" rows="6" class="form-control" aria-label="With textarea" name="customText" placeholder="Текст сообщения"></textarea>
+                                <?php echo form_error('customText','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
                             </div>
                             <div class="form-group">
                                 <div class="form-check">

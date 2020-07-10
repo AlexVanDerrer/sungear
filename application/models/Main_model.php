@@ -29,15 +29,21 @@ class Main_model extends CI_Model
         return $arrArticle[0];
     }
 
+    public function getAnotherArticles(){
+        $query = $this->db->query("SELECT * FROM articles ORDER BY views DESC LIMIT 4");
+        $arrArticles = $query->result_array();
+        return $arrArticles;
+    }
+
     public function orderRepair() {
         $this->load->library('email');
         $config['mailtype'] = 'html';
         $this->email->initialize($config);
         $this->email->clear();
       
-        $customName = $this->input->post('customName');
-        $customPhone = $this->input->post('customPhone');
-        $customText = $this->input->post('customText');
+        $customName = $this->input->post('customName') | $this->input->post('customNameForm') ;
+        $customPhone = $this->input->post('customPhone') | $this->input->post('customPhoneForm');
+        $customText = $this->input->post('customText') | 'Заказ обратного звонка';
         $modelPart = $this->input->post('modelPart'); 
         $delivery = $this->input->post('delivery'); 
         $isOrder = $this->input->post('order'); 
@@ -92,9 +98,6 @@ HTML;
         $this->email->send();
     }
 
-    public function example() {
-        echo 'example';
-    }
     public function printArr($array)
     {
         echo "<pre>" . print_r($array, true) . "</pre>";
