@@ -1,6 +1,6 @@
 <section id="another-service" class="pb-5">
     <div class="container-fluid">
-        <div class="pt-5"><h2 class="text-center">Мы также занимаемся</h2></div>
+        <div class="pt-5"><h2 class="text-center">Вам будет интересно</h2></div>
         <div class="row">
             <div class="col d-flex flex-wrap justify-content-center">
                 <?php foreach ($another_articles as $article) : ?>

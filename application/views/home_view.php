@@ -79,6 +79,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
+
                                 <div class="row ">
                                     <div class="col-2"><span class="list-numbers">1.</span></div>
                                     <div class="col-10 d-flex align-items-end"><p>Сделайте "Заказ на ремонт" с указанием своих контактов.</p></div>
@@ -94,11 +95,12 @@
                                         </p>
                                     </div>
                                 </div>
-
+                                
                                 <div class="row">
-                                    <div class="col-2"><span class="list-numbers">4.</span></div>
-                                    <div class="col-10 d-flex align-items-end"><p>Упакуйте гидротрансформатор так, чтобы его можно было переносить, не повредив и не капая остатками масла.</p></div>
+                                    <div class="col-2"><span class="list-numbers">5.</span></div>
+                                    <div class="col-10 d-flex align-items-end"><p>Приклейте к упаковке листок с номером заказа или номером телефона, чтобы не перепутать ваш гидротрансформатор с чужим.</p></div>
                                 </div>
+
                             </div>
 
                             <div class="col">
@@ -106,11 +108,11 @@
                                     <div class="col-2"><span class="list-numbers">2.</span></div>
                                     <div class="col-10 d-flex align-items-end"><p>Дождитесь от менеджера письма на е-почту с номером заказа и подтверждения к отправке.</p></div>
                                 </div>
-
                                 <div class="row">
-                                    <div class="col-2"><span class="list-numbers">5.</span></div>
-                                    <div class="col-10 d-flex align-items-end"><p>Приклейте к упаковке листок с номером заказа или номером телефона, чтобы не перепутать ваш гидротрансформатор с чужим.</p></div>
+                                    <div class="col-2"><span class="list-numbers">4.</span></div>
+                                    <div class="col-10 d-flex align-items-end"><p>Упакуйте гидротрансформатор так, чтобы его можно было переносить, не повредив и не капая остатками масла.</p></div>
                                 </div>
+
 
                             </div>
                         </div>
