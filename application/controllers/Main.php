@@ -36,7 +36,7 @@ class Main extends CI_Controller {
 		$data['parts'] = $this->main_model->getArrFromXlsx();
 		$data['another_articles'] = $this->main_model->getAnotherArticles();
 
-		$this->load->view('header');
+		$this->load->view('header_remont');
 		$this->load->view('nav_panel');
 		$this->load->view('menu_panel');
 		$this->load->view('remont_view', $data);
@@ -120,7 +120,7 @@ class Main extends CI_Controller {
 		} 
 
 		$data['another_articles'] = $this->main_model->getAnotherArticles();
-		$this->load->view('header');
+		$this->load->view('header_dct');
 		$this->load->view('nav_panel');
 		$this->load->view('menu_panel');
 		$this->load->view('remont_6dct450', $data);

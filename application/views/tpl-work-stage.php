@@ -28,7 +28,7 @@
 
     <!-- 2 L -->
     <div class="row">
-        <div class="col-6 p-0"><img class="w-100" src="img/stage2.png" alt="" loading="lazy"></div>
+        <div class="col-6 p-0"><img class="w-100" src="img/_SMO6814.png" alt="" loading="lazy"></div>
         <div class="col-6 p-0 d-flex align-items-center">
         <div class="container">
                 <div class="row">
@@ -82,7 +82,7 @@
 
     <!-- 4 L -->
     <div class="row">
-        <div class="col-6 p-0"><img class="w-100" src="img/stage2.png" alt="" loading="lazy"></div>
+        <div class="col-6 p-0"><img class="w-100" src="img/_SMO6928.png" alt="" loading="lazy"></div>
         <div class="col-6 p-0 d-flex align-items-center">
         <div class="container">
                 <div class="row">
@@ -293,12 +293,12 @@
                 </div>
             </div>
         </div>
-        <div class="col-6 p-0"><img class="w-100" src="img/_SMO7228.png" alt="" loading="lazy"></div>
+        <div class="col-6 p-0"><img class="w-100" src="img/11_2554.png" alt="" loading="lazy"></div>
     </div>
 
     <!-- 12 L -->
     <div class="row">
-        <div class="col-6 p-0"><img class="w-100" src="img/10_201.png" alt="" loading="lazy"></div>
+        <div class="col-6 p-0"><img class="w-100" src="img/_SMO7598.png" alt="" loading="lazy"></div>
         <div class="col-6 p-0 d-flex align-items-center">
         <div class="container">
                 <div class="row">
