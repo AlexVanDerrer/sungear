@@ -70,8 +70,8 @@
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:40px;
-	right:40px;
+	bottom:100px;
+	right:75px;
 	/* background-color: #B10000; */
     color:#FFF;
     border: 2px solid red;

@@ -20,6 +20,7 @@ $(document).ready(function(){
             $('.collapse-text-dct').collapse('hide')
         }, 2000);
     })
+    
 
 })
 

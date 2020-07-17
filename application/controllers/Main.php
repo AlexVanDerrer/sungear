@@ -163,6 +163,31 @@ class Main extends CI_Controller {
 		$this->load->view('article', $data);
 		$this->load->view('footer');
 	}
+
+	public function showParts() 
+	{
+		$this->load->helper(array('form', 'url'));
+		$this->load->library('form_validation');
+
+		$this->form_validation->set_rules('customNameForm', 'Username', 'trim|required', array('required' => 'Поле Имя должно быть заполнено'));
+		$this->form_validation->set_rules('customPhoneForm', 'Phone', 'trim|required|regex_match[/^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/]|min_length[5]|max_length[14]',
+			array('required' => 'Поле Телефон должно быть заполнено',
+				'regex_match' => 'Не валидный номер телефона',
+				'min_length' => 'Номер телефона не может быть менее 5 символов',
+				'max_length' => 'Номер телефона не может быть более 14 символов'));
+		
+		if($this->form_validation->run() == TRUE) {			
+			$this->main_model->orderRepair();
+		} 
+
+		$data['another_articles'] = $this->main_model->getAnotherArticles();
+		$this->load->view('header_dct');
+		$this->load->view('nav_panel');
+		$this->load->view('menu_panel');
+		$this->load->view('pageParts', $data);
+		$this->load->view('footer');
+	}
+
 	/**
 	 * Проверка поля customName 
 	 */

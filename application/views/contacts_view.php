@@ -3,7 +3,7 @@
         <div class="container p-0 ">
             <h1 class="text-start"><span>Контакты</span></h1>
             <div class="row">
-                <div class="col-lg-3" >
+                <div class="col-lg-3 mb-3" >
                     <div class="w-100 h-100 p-4 shadow-lg" style="background-color: #fafafa; border-radius: 6px;">
                         <span class="small-title">Адрес</span>
                         <p>
@@ -37,7 +37,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 mb-3">
                     <div class="w-100 h-100 p-4 shadow-lg" style="background-color: #fafafa; border-radius: 6px;">
                         <h2 class="text-start"><span>Напишите нам</span></h2>
                         <form method="post">

@@ -34,28 +34,54 @@
                 <div class="row shadow" style="border: 1px solid #f0f0f0;">
                     <div class="col-4 pl-0">
                         <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Износ дисков сцепления</a>
-                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Крышка сальника</a>
-                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Система фильтрации трансмиссионной жидкости</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Износ вилок сцепления</a>
+                            <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
+                                <div class="d-flex w-100 justify-content-between" >
+                                    Износ дисков сцепления
+                                    <span class="arrow" style="color: red;"><img class="align-middle" src="img/str.png" width="20" height="20" alt="" loading="lazy"></span>
+                                </div>
+                           </a>
+                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
+                                <div class="d-flex w-100 justify-content-between" >
+                                    Крышка сальника
+                                    <span class="arrow" style="color: red;"><img class="align-middle" src="img/str.png" width="20" height="20" alt="" loading="lazy"></span>
+                                </div> 
+                            </a>
+                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
+                                <div class="d-flex w-100 justify-content-between" >
+                                    Система фильтрации трансмиссионной жидкости
+                                    <span class="arrow" style="color: red;"><img class="align-middle" src="img/str.png" width="20" height="20" alt="" loading="lazy"></span>
+                                </div>
+                            </a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
+                                <div class="d-flex w-100 justify-content-between" >
+                                    Износ вилок сцепления
+                                    <span class="arrow" style="color: red;"><img class="align-middle" src="img/str.png" width="20" height="20" alt="" loading="lazy"></span>
+                                </div>
+                           </a>
                         </div>
                     </div>
                     <div class="col-8">
                         <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active  mt-3 mb-3" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Среди факторов, ускоряющих износ сцепления, – агрессивная манера вождения. 
-                                                                                                                                            При износе дисков сцепления ремонт редко ограничивается их заменой. Демпфер приходит в негодность. 
-                                                                                                                                            Пружины болтаются или трескаются, пластиковые направляющие ломаются. В результате проявляется повышенная вибрация, 
-                                                                                                                                            при движении идут периодические толчки.</div>
-                            <div class="tab-pane fade mt-3 mb-3" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Еще одно слабое место – крышка сальника. Ее конструктивные особенности ведут к преждевременному износу уплотнительного кольца,
-                                                                                                                                    где итогом является – течь или перекос крышки.</div>
-                            <div class="tab-pane fade mt-3 mb-3" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Следующий неприятный нюанс связан с системой фильтрации трансмиссионной жидкости. Замену наружного фильтра необходимо делать каждые 15-20 тысяч км пробега. Однако, внутренний фильтр рассчитан на весь срок эксплуатации трансмиссии, но специалисты сталкиваются с определенной проблемой: при разборе коробки после выхода ее из строя внутренний фильтр часто забит мелкой взвесью, она является причиной падения давления в коробке, нарушения работы гидравлического привода, 
-                                                                                                                                        требуется полностью разобрать трансмиссию, чтобы провести замену фильтра.</div>
-                            <div class="tab-pane fade mt-3 mb-3" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Еще одна частая поломка – износ вилок сцепления. Характерные признаки износа: передачи переключаются жестко (даже при наличии небольшого люфта), появляются рывки при движении. Часто автовладельцы получают сообщение электронной системы контроля об ошибке, связанной с вилками сцепления. Причин может быть две:
-                                                                                                                                        1.	смещение магнита, с которого электронный блок считывает информацию;
-                                                                                                                                        2.	поломка его пластикового крепления.
-                                                                                                                                        Для устранения неисправности разбирается трансмиссия.  Также нередко изнашиваются подшипники задней крышки и входного вала. Проявляется это в хорошо различимом гуле в салоне и вибрации.
-                                                                                                                                        Среди распространенных поломок – износ клапанов, регулирующих гидравлическое давление. Понять поломку можно по задержке при переключении передач, рывках при движении. 
-                                                                                                                                        </div>
+                            <div class="tab-pane fade show active  mt-3 mb-3" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                Среди факторов, ускоряющих износ сцепления, – агрессивная манера вождения. 
+                                При износе дисков сцепления ремонт редко ограничивается их заменой. Демпфер приходит в негодность. 
+                                Пружины болтаются или трескаются, пластиковые направляющие ломаются. В результате проявляется повышенная вибрация, 
+                                при движении идут периодические толчки.
+                            </div>
+                            <div class="tab-pane fade mt-3 mb-3" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                                Еще одно слабое место – крышка сальника. Ее конструктивные особенности ведут к преждевременному износу уплотнительного кольца,
+                                где итогом является – течь или перекос крышки.
+                            </div>
+                            <div class="tab-pane fade mt-3 mb-3" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                                Следующий неприятный нюанс связан с системой фильтрации трансмиссионной жидкости. Замену наружного фильтра необходимо делать каждые 15-20 тысяч км пробега. Однако, внутренний фильтр рассчитан на весь срок эксплуатации трансмиссии, но специалисты сталкиваются с определенной проблемой: при разборе коробки после выхода ее из строя внутренний фильтр часто забит мелкой взвесью, она является причиной падения давления в коробке, нарушения работы гидравлического привода, 
+                                требуется полностью разобрать трансмиссию, чтобы провести замену фильтра.</div>
+                            <div class="tab-pane fade mt-3 mb-3" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                                Еще одна частая поломка – износ вилок сцепления. Характерные признаки износа: передачи переключаются жестко (даже при наличии небольшого люфта), появляются рывки при движении. Часто автовладельцы получают сообщение электронной системы контроля об ошибке, связанной с вилками сцепления. Причин может быть две:
+                                1.	смещение магнита, с которого электронный блок считывает информацию;
+                                2.	поломка его пластикового крепления.
+                                Для устранения неисправности разбирается трансмиссия.  Также нередко изнашиваются подшипники задней крышки и входного вала. Проявляется это в хорошо различимом гуле в салоне и вибрации.
+                                Среди распространенных поломок – износ клапанов, регулирующих гидравлическое давление. Понять поломку можно по задержке при переключении передач, рывках при движении. 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -74,7 +100,6 @@
             <div class="row">
                 <div class="col">
                     <div class="w-100 h-100">
-
                         <form class="text-white" method="post">
                             <div class="form-row ">
                                 <div class="form-group col-md-4">
@@ -91,9 +116,6 @@
                             </div>
                         </form>
                     </div>
-                    
-            
-            
                 </div>
             </div>
         </div>
