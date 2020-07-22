@@ -64,6 +64,7 @@ $route['politika'] = 'main/politika';
 $route['garantii'] = 'main/notFound';
 $route['oborydovanie'] = 'main/notFound';
 $route['article'] = 'main/getArticle';
+$route['vosstanovlenie-korpysov'] = 'main/services';
 // $route['admin'] = 'admin';
 $route['admin'] = 'main/notFound';
 $route['set_article'] = 'admin/set_article';

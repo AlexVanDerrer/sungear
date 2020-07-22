@@ -16,14 +16,15 @@
                 <div class="col-6 col-lg-3 footer-right-link" >
                     <span class="block-title">Услуги</span>
                     <ul class="mt-3 p-0">
-                        <li><a href="zapchasti">Запчасти для АКПП, CVT, DSG</a></li>
-                        <li><a href="remont">Ремонт гидротрансформаторов для легковых и грузовых</a></li>
-                        <li><a href="remont6dct450">Ремонт 6DCT450 PowerShift</a></li>
+                        <li class="mb-3"><a href="zapchasti">Запчасти для АКПП, CVT, DSG</a></li>
+                        <li class="mb-3"><a href="remont">Ремонт гидротрансформаторов для легковых и грузовых</a></li>
+                        <li class="mb-3"><a href="remont6dct450">Ремонт 6DCT450 PowerShift</a></li>
+                        <li class="mb-3"><a href="vosstanovlenie-korpysov">Восстановление конусов CVT корпусов АКПП</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="container p-0">
-                        <div class="row footer-contact" style="">
+                        <div class="row footer-contact">
                             <div class="col-md-6 p-0 footer-left-contact">
                                 <span>Мы работаем:</span>
                                 <ul class="mt-3 p-0">
