@@ -1,3 +1,11 @@
+<div class="w-100" 
+    style=" background: url('../img/contacts_bg.png') no-repeat; 
+            background-size: cover; 
+            background-position: center;
+            position: absolute;
+            height:900px;
+            ">
+</div>
 <div class="container mt-5 scroll-container">
     <div class="row">
         <!-- <div class="col-lg-3 mb-5">
@@ -22,14 +30,19 @@
                             планетарные ряды, масляные насосы, ступицы, корпуса сцеплений и другие запчасти, которые могут потребоваться при серьезном ремонте. 
                             Зaпчacти для AKПП, которые редко выходят из строя или уникальны для какой-либо модификации коробки, можно привезти на заказ.
                         </p>
+                        <div class="container d-flex justify-content-center">
+                            <button class="btn btn-red-blood shadow br-20 mb-3" type="button" data-toggle="modal" data-target="#exampleModal">Обратный звонок</button>
+
+                        </div>
                         <p>
+                            
                             Можно приобрести трансмиссионные масла ведущих мировых производителей:Mobil, Esse, Shevron. Мы работаем с автосервисами, специализирующимися 
                             на ремонте АКПП, расположенными в СПб и Северо-Западном регионе. Осуществляется доставка запчастей по Санкт-Петербургу.
                         </p>
                     </div>
                 </div>
                 <div class="row mt-5">
-                    <div class="col-lg-8"><img class="w-100 shadow" src="img/shema1.png" alt="" loading="lazy"></div>
+                    <div class="col-lg-8"><img class="w-100 shadow" src="img/shema.png" alt="" loading="lazy"></div>
                     <div class="col-lg-4 d-none d-lg-block">
                         <img class="w-100 mb-3 shadow" src="img/shema2.png" alt="" loading="lazy">
                         <img class="w-100 shadow" src="img/shema3.png" alt="" loading="lazy">

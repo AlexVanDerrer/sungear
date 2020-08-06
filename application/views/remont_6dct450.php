@@ -1,7 +1,15 @@
+<div class="w-100" 
+    style=" background: url('../img/contacts_bg.png') no-repeat; 
+            background-size: cover; 
+            background-position: center;
+            position: absolute;
+            height:900px;
+            ">
+</div>
 <div class="container mt-5 scroll-container"  style="border-bottom: 1px solid red;">
     <div class="row">
         <div class="col-lg-3 mb-5">
-            <div class="list-group sticky-top" id="scroll-list">
+            <div class="list-group sticky-top shadow" id="scroll-list">
                 <a class="list-group-item list-group-item-action" href="#repair_6dct450">Ремонт 6DCT450</a>
                 <a class="list-group-item list-group-item-action" href="#reasons-failure">Причины поломки</a>
                 <!-- <a class="list-group-item list-group-item-action" href="#work-stage">Этапы работ</a> -->
@@ -29,9 +37,41 @@
                     </div>
                 </div>
             </div>
+
+            <div class="w-100 p-3 br-20 mb-5" style="background: url('../img/21_2.png') no-repeat; background-size: cover; background-position: center;">
+        <div class="container p-0 ">
+            <h2 class="text-center"><span class="text-white block-title">Заказать ремонт 6DCT450/MPS6 PowerShift</span></h2>
+            <p  class="mt-4 text-center text-light" style="font-size: 14px;">
+                Выполняем ремонт PowerShift DCT450 в Санкт-Петербурге и России, <br>на профессиональном оборудовании с гарантией качества, чтобы радовать вас и ваш автомобиль!  
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="w-100 h-100">
+                        <form class="text-white" method="post">
+                            <div class="form-row ">
+                                <div class="form-group col-md-4">
+                                    <input type="text" class="form-control br-20" name="customNameForm" id="feedbackInputNameForm" placeholder="Ваше имя">
+                                    <?php echo form_error('customNameForm','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <input type="text" class="form-control br-20" name="customPhoneForm" id="feedbackInputNumberForm" placeholder="+7(___)___-__-__">
+                                    <?php echo form_error('customPhoneForm','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <button class="btn btn-danger shadow br-20 w-100" name="submitForm" value="callbackForm" type="submit">Отправить сообщение</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
             <div class="container-fluid mb-5" id="reasons-failure">
                 <h2 class="text-center mb-5"><span class="block-title">Причины поломки</span></h2>
-                <div class="row shadow" style="border: 1px solid #f0f0f0;">
+                <div class="row shadow bg-light" style="border: 1px solid #f0f0f0;">
                     <div class="col-4 pl-0">
                         <div class="list-group" id="list-tab" role="tablist">
                             <a class="list-group-item list-group-item-action active d-flex justify-content-between align-items-center" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
@@ -91,35 +131,7 @@
 
 
 
-    <div class="w-100 p-3 br-20 mb-5" style="background: url('../img/21_2.png') no-repeat; background-size: cover; background-position: center;">
-        <div class="container p-0 ">
-            <h2 class="text-center"><span class="text-white block-title">Заказать ремонт 6DCT450/MPS6 PowerShift</span></h2>
-            <p  class="mt-4 text-center text-light" style="font-size: 14px;">
-                Выполняем ремонт PowerShift DCT450 в Санкт-Петербурге и России, <br>на профессиональном оборудовании с гарантией качества, чтобы радовать вас и ваш автомобиль!  
-            </p>
-            <div class="row">
-                <div class="col">
-                    <div class="w-100 h-100">
-                        <form class="text-white" method="post">
-                            <div class="form-row ">
-                                <div class="form-group col-md-4">
-                                    <input type="text" class="form-control br-20" name="customNameForm" id="feedbackInputNameForm" placeholder="Ваше имя">
-                                    <?php echo form_error('customNameForm','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <input type="text" class="form-control br-20" name="customPhoneForm" id="feedbackInputNumberForm" placeholder="+7(___)___-__-__">
-                                    <?php echo form_error('customPhoneForm','<span class="text-danger" style="font-size: 12px;">', '</span>'); ?>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <button class="btn btn-danger shadow br-20 w-100" name="submitForm" value="callbackForm" type="submit">Отправить сообщение</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
             <div class="container-fluid mb-5" id="repair-process">
                 <div class="row">

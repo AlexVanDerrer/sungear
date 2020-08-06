@@ -1,5 +1,5 @@
 <section id="start-block" class="d-none d-lg-block">
-    <div class="w-100 p-5 first-img bg-secondary" style="background: url('../img/background2.png') no-repeat; background-size: cover; background-position: center;">
+    <div class="w-100 p-5 first-img bg-secondary" style="background: url('../img/background3.png') no-repeat; background-size: cover; background-position: center;">
         <div class="container-fluid text-white main-links">
             <div class="row align-items-center">
                 <div class="col-4 ">

@@ -1,3 +1,11 @@
+<div class="w-100" 
+    style=" background: url('../img/contacts_bg.png') no-repeat; 
+            background-size: cover; 
+            background-position: center;
+            position: absolute;
+            height:900px;
+            ">
+</div>
 <div class="container mt-5 scroll-container">
     <div class="row">
         <!-- <div class="col-lg-3 mb-5">
@@ -9,7 +17,7 @@
         </div> -->
         <div class="col">
             <div class="container-fluid mb-5" id="repair_6dct450">
-                <h1 class="text-center mb-5">Восстановление корпусов АКПП</h1>
+                <h2 class="text-center mb-5">Восстановление корпусов АКПП</h2>
                 <div class="row">
                     <div class="col-lg">
                         <p>
@@ -37,8 +45,15 @@
 
                     </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-lg d-flex justify-content-center"><img class="w-50 shadow img-thumbnail" src="img/_SMO7785.png" alt="" loading="lazy"></div>
+                <div class="row">
+
+                    <div class="col">
+                        <!-- <h2 class="text-center"><span class="block-title">Процесс восстановления корпусов CVT </span></h2> -->
+                        <div class="video-block embed-responsive embed-responsive-16by9 mt-5 mx-auto">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/owWhl4mbikQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                
                 </div>
             </div>
 

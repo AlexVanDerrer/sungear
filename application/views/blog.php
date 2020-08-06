@@ -1,4 +1,12 @@
 <?php $allArticles = $this->main_model->getAllArticles(); ?>
+<div class="w-100" 
+    style=" background: url('../img/contacts_bg.png') no-repeat;
+            background-size: cover; 
+            background-position: center;
+            position: absolute;
+            height:900px;
+            ">
+</div>
 
 <div class="container mt-5">
 <h1 class="text-center ">Статьи по ремонту и восстановлению гидротрансформаторов и PowerShift</h1>
