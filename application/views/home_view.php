@@ -10,7 +10,7 @@
 
                 <div class="col-5 position-relative">
                         <div class="main-links-border collapse-link-main pl-2 mb-3">
-                            <a data-toggle="collapse" class="" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ремонт<br>гидротрансформаторов<br>для легкового и<br>грузового транспорта</a>
+                            <a href="remont">Ремонт<br>гидротрансформаторов<br>для легкового и<br>грузового транспорта</a>
                         </div>
                         <div class="collapse position-absolute collapse-text-main" id="collapseExample">
                             <p class="w-75">
